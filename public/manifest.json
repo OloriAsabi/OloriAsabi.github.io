@@ -1,25 +1,45 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "Olori Asabi", 
+  "short_name": "OA",
+  "description": "Olori asabi creates a Progressive Web App and Responsive Web app as a Frontend Engineer From Lagos Nigeria. ",
+  "categories": ["Technologies","Computer Science", "Frontend developer/engineer", "education", "lagos/Nigeria"],
+  "lang": "en",
+  "orientation": "any",
+  "start_url": "/olori-asabi-app/",
+  "scope": "/",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "olori_resize/olori2_38.png",
+      "sizes": "38x38",
+      "type": "image/png"
     },
     {
-      "src": "logo192.png",
+      "src": "olori_resize/olori2_64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "olori_resize/olori2_192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "olori_resize/olori2_512.png",
       "type": "image/png",
       "sizes": "512x512"
+    },
+    {
+      "src": "olori_resize/olori2_1024.png",
+      "type": "image/png",
+      "sizes": "1024x1024"
     }
   ],
-  "start_url": ".",
+  
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#ffffff",
+  "background_color": "#000000",
+
+  "screenshots":[
+
+  ]
 }
