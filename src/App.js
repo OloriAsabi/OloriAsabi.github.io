@@ -4,10 +4,12 @@ import { BrowserRouter as Router,
   Route,
  } from "react-router-dom";
 
+import Navbar from './components/Navbar';
+
+import Contact from './components/Contact';
 import Home from './components/Home';
 import About from "./components/About";
 import Skills  from "./components/MySkills";
-import Navbar from './components/Navbar';
 
 function App() {
   return(
@@ -23,6 +25,9 @@ function App() {
         <Route path="/skills">
           <Skills />
         </Route>
+        <Route path='/contact'>
+          Contact
+          </Route>
       </Switch>
       </Router>
   )
