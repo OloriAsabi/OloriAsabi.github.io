@@ -201,30 +201,16 @@ button .show-text .settings-btn{
 nav {
   background: var(--clr-white);
   box-shadow: var(--light-shadow);
+}
+.nav {
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
  
 }
 
-@media screen and (max-width: 960px){
-  nav{
-  transition: 0.8s all ease;}
-}
-.nav-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem; 
-}
-.nav-toggle {
-  font-size: 1.5rem;
-  color: var(--clr-black) !important;
-  background: transparent;
-  border-color: transparent;
-  cursor: pointer;
-}
-.nav-toggle:hover {
-  color: rgb(143, 142, 142);
 
-}
 .logo {
   height: 4.5em ;
   cursor: pointer;
@@ -232,81 +218,73 @@ nav {
 }
 .links {
   display: flex;
-  align-items: center;
   list-style: none;
+      /**/
+}
+.links li a{
+ display: inline-block;
+ padding: 15px;
+ text-decoration: none;
+ text-transform: capitalize;
+ color: var(--clr-black);
+ font-size: 1em ;
+}
+.links li a:active {
+  border-bottom: 1px solid --clr-black;
 }
 
-.links a {
-  color:var(--clr-black) !important;
-  font-size: 1rem;
-  text-transform: capitalize;
-  text-decoration: none;
-  letter-spacing: 1.5;
-  display: inline-block;
-  align-items: center;
+.nav-toggle{
+  font-size: 2rem;
+  margin: 20px;
+  display: none;
   cursor: pointer;
-  padding: 0.5rem 1rem;
-  transition: var(--transition);
 }
-.links a:hover {
-  color:rgb(145, 140, 140) !important; 
-  padding-left: 1.5rem;
+.closeMenu {
+  display: none;
 }
 
-.links-container {
-  height: 0;
-  overflow: hidden;
-}
-.show-container {
-  height: 10rem;
-  
-}
-@media screen and (min-width: 800px) {
-  .nav-center {
-    max-width: 1170px;
-    margin-left: auto;
-    display: flex;
+@media screen and (max-width: 768px){
+  .links{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 10;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-  }
-  .logo{
-    height: 4.5em !important;
-    cursor: pointer;
-  justify-self: flex-start;
-  display: flex;
-  align-items: center;
-  margin-left: 24px;
-  }
-  .nav-header {
-    padding: 0;
-  }
-  .nav-toggle {
+    transition: top 1s ease;
+    background-color: var(--clr-white);
     display: none;
   }
-  .links-container {
-    height: auto !important;
-    color: #fff !important;
+  .links li a{
+    color: var(--clr-black);
+    font-size: 2rem;
   }
-  .links {
-    display: flex;
-   align-items: center;
-    text-align: center;
-    margin-left: -40px;
+  .nav-toggle{
+    display: block;
+    font-size: 1.5rem;
+    background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+    color: var(--clr-black);
   }
-
-
-  .links a {
-    padding: 0;
-    margin: 0 0.5rem;
-     
+  .links .closeMenu{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: transparent;
+  border-color: transparent;
+    font-size: 2rem;
+    color: var(--clr-black);
   }
-  .links a:hover {
-    padding: 0;
-    color: rgb(87, 86, 86);
-  }
-  
 }
+
+
+
+
 /* Home
 header  {
   min-height: 100vh;
@@ -320,15 +298,23 @@ header  {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 35%;
+  left: 42%;
   background-image: url(./Images/OloriSketch.png);
   background-repeat: no-repeat;
+  background-size: auto;
+}
+@media screen and (max-width: 768px){
+  .bg-photo{
+    left: 70%;
+  }
 }
      
 
 .banner {
 min-height: 90vh;
-position: absolute;
+position: fixed;
+ margin: auto;
+ padding: 5rem;
     height: 100%;
     display: flex;
  justify-content: center;
@@ -336,27 +322,38 @@ position: absolute;
     vertical-align: baseline;
 }
 
-
-
-
-
-.section-center h3{
+.section-center h4{
   font-family: 'Andada Pro', serif;
 color: var(--clr-black);
 text-transform: uppercase;
 margin-top: auto;
 letter-spacing: 1.5px;
-font-size: 1.8em;
+font-size: 1.6em;
+font-weight: 700;
+margin: auto;
+margin-bottom: 2rem;
+}
+
+
+
+.section-center h1{
+  font-family: 'Andada Pro', serif;
+color: var(--clr-black);
+text-transform: uppercase;
+margin-top: auto;
+letter-spacing: 1.5px;
+font-size: 2em;
 font-weight: 800;
 margin: auto;
 margin-bottom: 2rem;
 }
 .section-center p{
-max-width: 25rem;
+  font-family: 'Andada Pro', serif;
+  justify-self: center;
+align-content: center;
 color: var(--clr-black);
-margin-right: auto;
+margin: auto;
 font-size: 1.5em;
-font-style: italic;
 font-weight: 600;
 margin-bottom: 1.25rem;
 letter-spacing: 2px;
@@ -366,7 +363,7 @@ width: 100%;
 justify-self: center;
 align-content: center;
 display: inline-block;
-margin: 0 0.5rem;
+margin: -5px;
 font-size: 0.875rem;
 cursor: pointer;
 padding-bottom: 2rem;
