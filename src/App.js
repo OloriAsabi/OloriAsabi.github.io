@@ -12,7 +12,6 @@ import Navbar from './components/Navbar';
 function App() {
   return(
     <Router>
-      <div>
       <Navbar/>
       <Switch>
         <Route exact path="/">
@@ -25,7 +24,6 @@ function App() {
           <Skills />
         </Route>
       </Switch>
-      </div>
       </Router>
   )
 }
