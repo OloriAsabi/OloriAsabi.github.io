@@ -3,13 +3,17 @@ import { BrowserRouter as Router,
   Switch,
   Route,
  } from "react-router-dom";
+
 import Home from './components/Home';
 import About from "./components/About";
 import Skills  from "./components/MySkills";
+import Navbar from './components/Navbar';
 
 function App() {
   return(
     <Router>
+      <div>
+      <Navbar/>
       <Switch>
         <Route exact path="/">
           <Home />
@@ -21,6 +25,7 @@ function App() {
           <Skills />
         </Route>
       </Switch>
+      </div>
       </Router>
   )
 }

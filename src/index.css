@@ -207,19 +207,16 @@ nav {
   padding: 1rem;
   display: flex;
   justify-content: space-between;
- 
 }
-
 
 .logo {
   height: 4.5em ;
   cursor: pointer;
   align-items: center;
 }
-.links {
-  display: flex;
-  list-style: none;
-      /**/
+.linkss {
+  display: flex !important;
+  list-style: none;   
 }
 .links li a{
  display: inline-block;
@@ -298,15 +295,10 @@ header  {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 42%;
+  left: 45%;
   background-image: url(./Images/OloriSketch.png);
   background-repeat: no-repeat;
   background-size: auto;
-}
-@media screen and (max-width: 768px){
-  .bg-photo{
-    left: 70%;
-  }
 }
      
 

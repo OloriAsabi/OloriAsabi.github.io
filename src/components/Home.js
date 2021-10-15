@@ -1,14 +1,10 @@
 import React from 'react';
-import Navbar from "./Navbar"
 import { social } from './data';
 //import pic from './Images/OloriSketch.png';
 
 function Home () {
         return(
           <main>
-            <header>
-          <Navbar />
-          </header>
             <section className="main">
             <div className="banner container">
             <div className="section-center row">
