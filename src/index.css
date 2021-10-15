@@ -201,6 +201,7 @@ button .show-text .settings-btn{
 nav {
   background: var(--clr-white);
   box-shadow: var(--light-shadow);
+ 
 }
 
 @media screen and (max-width: 960px){
@@ -211,7 +212,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 1rem; 
 }
 .nav-toggle {
   font-size: 1.5rem;
@@ -345,7 +346,7 @@ color: var(--clr-black);
 text-transform: uppercase;
 margin-top: auto;
 letter-spacing: 1.5px;
-font-size: 2.5em;
+font-size: 1.8em;
 font-weight: 800;
 margin: auto;
 margin-bottom: 2rem;
@@ -353,7 +354,7 @@ margin-bottom: 2rem;
 .section-center p{
 max-width: 25rem;
 color: var(--clr-black);
-margin: 0 auto;
+margin-right: auto;
 font-size: 1.5em;
 font-style: italic;
 font-weight: 600;
@@ -382,7 +383,7 @@ color: var(--clr-black);
 }
 
 .socials a:hover {
-color: rgb(208, 205, 205);
+color: rgb(73, 52, 52);
 }
 
 
