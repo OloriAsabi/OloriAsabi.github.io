@@ -1,8 +1,8 @@
 import React from 'react';
-import logo from "../Images/Olori.png";
+import logo from "../Images/Olori-logo.png";
 
 
-function About( ) {
+function About() {
     
         
     return(
@@ -19,7 +19,9 @@ function About( ) {
             
                         
             <article>
-                <p className="text">I'm self taught Frontend developer</p>
+                <p className="text">I'm self taught Frontend developer
+                from Nigeria.
+                I've been building website since 2020 with a focus on responsive design, accessibility and pleasing aesthetics</p>
             </article></div>
             </div>
             </div>

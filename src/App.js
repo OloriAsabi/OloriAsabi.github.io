@@ -7,12 +7,12 @@ import { BrowserRouter as Router,
 import Home from './components/Home';
 import About from "./components/About";
 import Skills  from "./components/MySkills";
+import Contact from "./components/Contact";
 import Navbar from './components/Navbar';
 
 function App() {
   return(
     <Router>
-      <div>
       <Navbar/>
       <Switch>
         <Route exact path="/">
@@ -24,8 +24,10 @@ function App() {
         <Route path="/skills">
           <Skills />
         </Route>
+        <Route path="/contact">
+          <Contact />
+        </Route>
       </Switch>
-      </div>
       </Router>
   )
 }

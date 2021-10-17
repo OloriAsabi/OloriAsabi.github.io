@@ -202,85 +202,113 @@ nav {
   background: var(--clr-white);
   box-shadow: var(--light-shadow);
 }
-.nav {
-  margin: auto;
-  padding: 1rem;
+/*Desktop View*/
+.header {
   display: flex;
+  background: var(--clr-white);
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0px 40px;
+
+}
+.logo-nav{
+  display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
 .logo {
-  height: 4.5em ;
-  cursor: pointer;
-  align-items: center;
+  height: 5.25rem;
 }
-.linkss {
-  display: flex !important;
-  list-style: none;   
-}
-.links li a{
- display: inline-block;
- padding: 15px;
- text-decoration: none;
- text-transform: capitalize;
- color: var(--clr-black);
- font-size: 1em ;
-}
-.links li a:active {
-  border-bottom: 1px solid --clr-black;
+.nav-options {
+  padding-left: 25px;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 50px;
+  list-style-type: none;
+  letter-spacing: var(--spacing);
+
 }
 
-.nav-toggle{
-  font-size: 2rem;
-  margin: 20px;
-  display: none;
-  cursor: pointer;
-}
-.closeMenu {
-  display: none;
+.nav-options a{
+  font-family: 'Andada Pro', serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--clr-black);
+  font-size: 1rem;
+  display: flex;
+  padding: auto;
 }
 
-@media screen and (max-width: 768px){
-  .links{
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 10;
+
+.option :hover {
+  color: #000;
+  padding-left: 1.5rem;
+  border-bottom: 1px solid black;
+}
+
+.menu-icon {
+  display: none;
+}
+@media (max-width: 765px) {
+  /*Mobile View */
+  .header {
+    padding: 0px 10px;
+  }
+  .logo {
+    height:4.25rem;
+  }
+  .nav-options {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease;
     flex-direction: column;
-    justify-content: center;
+    list-style-type: none;
+    grid-gap: 0px;
+  }
+  .nav-options a{
+    text-decoration: none;
+    color: var(--clr-black);
+    text-transform: capitalize;
+  }
+  .nav-options.active {
+    background:  var(--clr-white);
+    color: var(--clr-black);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    align-content: center;
+    padding-left: 0px;
+  }
+
+  .menu-icon {
+    width: 22px;
+    height: 22px;
+    display: flex;
+  }
+  .option {
+    display: flex;
     align-items: center;
-    transition: top 1s ease;
-    background-color: var(--clr-white);
+    justify-content: center;
+    height: 10vw;
+    padding: 30px 0px;
+  }
+  
+
+  .signin-up {
     display: none;
   }
-  .links li a{
-    color: var(--clr-black);
-    font-size: 2rem;
-  }
-  .nav-toggle{
-    display: block;
-    font-size: 1.5rem;
-    background: transparent;
-  border-color: transparent;
-  cursor: pointer;
-    color: var(--clr-black);
-  }
-  .links .closeMenu{
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background: transparent;
-  border-color: transparent;
-    font-size: 2rem;
-    color: var(--clr-black);
-  }
 }
-
-
-
+.mobile-menu {
+  display: block;
+}
 
 /* Home
 header  {
@@ -378,7 +406,7 @@ color: rgb(73, 52, 52);
 
 /* ABOUT */
 .sec{
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Andada Pro', serif;
 }
 .underline {
   width: 3rem;
@@ -399,8 +427,10 @@ color: rgb(73, 52, 52);
 
 
 article .text{
+  font-family: 'Andada Pro', serif;
 text-transform: capitalize;
   letter-spacing: 2px;
+  margin: auto;
   margin-top: 2rem;
   justify-content: center;
   align-items: center;
@@ -418,3 +448,23 @@ text-transform: capitalize;
   color: #000;
 }
 
+
+/* Contact*/
+.content{
+  margin: 30px;
+  align-items: center;
+}
+
+.content h1 {
+  font-family: 'Andada Pro', serif;
+  font-size: 48px;
+  line-height: 80px;
+}
+
+.content p{
+  font-family: 'Andada Pro', serif;
+  align-items: center;
+  color: var(--clr-black);
+  
+
+}

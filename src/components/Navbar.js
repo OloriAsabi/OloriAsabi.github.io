@@ -1,67 +1,55 @@
-import React, { useState, useEffect, useRef} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaBars ,FaTimes} from 'react-icons/fa';
+import { FaBars , FaTimes } from "react-icons/fa"
 import logo from "../Images/Olori-logo.png";
 
 
-const Navbar = () => {
-  const [showLinks, setShowLinks] = useState(false);
-  /*const linksContainerRef = useRef(null);*/
-  const linksRef = useRef(null);
-  const toggleLinks = () => {
-    setShowLinks(!showLinks);
-  };
- 
-  useEffect(() => {
-    
-    if (showLinks) {
-      linksRef.current.style.display = "flex";
-    } else {
-      linksRef.current.style.display = 'none';
-    }
-  }, [showLinks]);
- 
+export default function Navbar () {
 
-    return(
-      <nav className="">
-      <div className='container nav'>
-          <Link to="/"><img src={logo} className='logo' alt='logo'/></Link>
-          <button className='nav-toggle' onClick={toggleLinks}>
-            <FaBars />
-          </button>
-          <ul className='links' ref={linksRef}>
-            <li>
-           <Link to="/"
-           >
+
+  const [click, setClick] = useState(false);
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
+
+
+  return (
+    <nav>
+    <header className="header container">
+      <div className="logo-nav">
+      
+        <img src={logo} className='logo' alt='logo' />
+       
+
+        <ul className={click ? "nav-options active" : "nav-options"}>
+          <li className="option" onClick={closeMobileMenu}>
+          <Link to="/" >
                 Home
              </Link>
-             </li>
-             <li>
-            <Link to="/about">
+          </li>
+          <li className="option" onClick={closeMobileMenu}>
+          <Link to="/about">
               About </Link>
           </li>
-          <li>
-            <Link to="/project"
+          <li className="option" onClick={closeMobileMenu}>
+          <Link to="/project"
             >Projects</Link>
           </li>
-          <li>
-            <Link to="/skills">Skills</Link>
+          <li className="option mobile-option" onClick={closeMobileMenu}>
+          <Link to="/skills">Skills</Link>
           </li>
-
-          <li>
-            <Link to="/contact/">Contact</Link>
+          <li className=" option mobile-option" onClick={closeMobileMenu}>
+            <Link to="/contact" className="">Contact</Link>
           </li>
-          <div ><button className="closeMenu" onClick={toggleLinks}><FaTimes /></button></div>
-          </ul>
-        </div>
-      </nav>
-   
-    );
-  
-}
-
-export default Navbar;
-
-
-
-
+        </ul>
+      </div>
+      <div className="mobile-menu" onClick={handleClick}>
+        {click ? (
+          <FaTimes className="menu-icon" />
+        ) : (
+          <FaBars className="menu-icon" />
+        )}
+      </div>
+    </header>
+    </nav>
+  );
+};

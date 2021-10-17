@@ -5,7 +5,7 @@ import { social } from './data';
 function Home () {
         return(
           <main>
-            <section className="main">
+            <section className="main ">
             <div className="banner container">
             <div className="section-center row">
               <div className="col-sm-12 col-md-12">
