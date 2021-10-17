@@ -14,6 +14,7 @@ import Skills  from "./components/MySkills";
 function App() {
   return(
     <Router>
+    <div>
       <Navbar/>
       <Switch>
         <Route exact path="/">
@@ -29,6 +30,7 @@ function App() {
           Contact
           </Route>
       </Switch>
+    </div>
       </Router>
   )
 }
