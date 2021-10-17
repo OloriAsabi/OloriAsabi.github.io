@@ -7,6 +7,7 @@ import logo from "../Images/Olori-logo.png";
 function Contact() {
     return(
         <div className="content container">
+          <div className="row">
             <div className="col-sm-12 col-md-6 align-item-center">
             <img src={logo} alt="About pic" style={{height:"80%", width: "80%"}} className="about-logo m-4"/></div>
             <h1 className="mb-5">Let's get in touch!</h1>
@@ -16,7 +17,7 @@ function Contact() {
             experience to the table where we can work together to solve real business-problems 
             in a way that optimizes all of our respective experience and knowledge.
              </p>
-            <div className="socials col-sm-12 col-md-12">
+            <div className="socials socials-contact col-sm-12 col-md-12">
                  <ul>
                       {social.map((socialIcon) => {
                 const { id, url, icon } = socialIcon;
@@ -28,7 +29,7 @@ function Contact() {
                     })}
                   </ul>
               </div>
-
+            </div>
              
 
         </div>

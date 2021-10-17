@@ -323,7 +323,7 @@ header  {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 45%;
+  left: 50%;
   background-image: url(./Images/OloriSketch.png);
   background-repeat: no-repeat;
   background-size: auto;
@@ -331,27 +331,28 @@ header  {
      
 
 .banner {
-min-height: 90vh;
+min-height: 100vh;
 position: fixed;
  margin: auto;
  padding: 5rem;
     height: 100%;
     display: flex;
  justify-content: center;
-    align-items: center;
-    vertical-align: baseline;
+align-items:center;
+
 }
 
 .section-center h4{
   font-family: 'Andada Pro', serif;
-color: var(--clr-black);
-text-transform: uppercase;
-margin-top: auto;
-letter-spacing: 1.5px;
-font-size: 1.6em;
-font-weight: 700;
-margin: auto;
-margin-bottom: 2rem;
+    color: var(--clr-black);
+    text-transform: uppercase;
+    margin-top: auto;
+    letter-spacing: 1.5px;
+    text-align: justify;
+    font-size: 1.6em;
+    font-weight: 700;
+    margin: auto;
+    margin-bottom: 2rem;
 }
 
 
@@ -362,6 +363,7 @@ color: var(--clr-black);
 text-transform: uppercase;
 margin-top: auto;
 letter-spacing: 1.5px;
+text-align: justify;
 font-size: 2em;
 font-weight: 800;
 margin: auto;
@@ -369,19 +371,16 @@ margin-bottom: 2rem;
 }
 .section-center p{
   font-family: 'Andada Pro', serif;
-  justify-self: center;
-align-content: center;
 color: var(--clr-black);
 margin: auto;
 font-size: 1.5em;
 font-weight: 600;
+align-items: center;
+text-align: justify;
 margin-bottom: 1.25rem;
 letter-spacing: 2px;
 }
 .socials {
-width: 100%;
-justify-self: center;
-align-content: center;
 display: inline-block;
 margin: -5px;
 font-size: 0.875rem;
@@ -400,7 +399,7 @@ color: var(--clr-black);
 }
 
 .socials a:hover {
-color: rgb(73, 52, 52);
+color: rgb(125, 120, 120);
 }
 
 
@@ -452,12 +451,14 @@ text-transform: capitalize;
 /* Contact*/
 .content{
   margin: 30px;
+  justify-content: center;
   align-items: center;
 }
 
 .content h1 {
   font-family: 'Andada Pro', serif;
   font-size: 48px;
+  text-align: center;
   line-height: 80px;
 }
 
@@ -467,4 +468,9 @@ text-transform: capitalize;
   color: var(--clr-black);
   
 
+}
+
+.socials-contact{
+  margin-left: auto;
+  margin-right: auto;
 }
