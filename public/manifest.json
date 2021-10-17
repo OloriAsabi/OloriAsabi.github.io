@@ -9,22 +9,23 @@
   "scope": "/",
   "icons": [
     {
-      "src": "olori_resize/olori2_38.png",
+      "src": "olori-resize/olori2-38.png",
       "sizes": "38x38",
       "type": "image/png"
     },
+
     {
-      "src": "olori_resize/olori2_192.png",
+      "src": "olori-resize/olori2-192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "olori_resize/olori2_512.png",
+      "src": "olori-resize/olori2-512.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "olori_resize/olori2_1024.png",
+      "src": "olori-resize/olori2-1024.png",
       "type": "image/png",
       "sizes": "1024x1024"
     }
