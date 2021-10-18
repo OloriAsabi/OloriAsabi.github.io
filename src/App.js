@@ -18,7 +18,7 @@ function App() {
     <Router>
       <Navbar/>
       <Switch>
-        <Route exact path="/olori-asabi-app">
+        <Route exact path="/">
           <Home />
         </Route>
       <Route path="/about">
