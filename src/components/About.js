@@ -6,12 +6,12 @@ function About() {
     
         
     return(
-        <section className="sec" >
+        <section className="sec section" >
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-sm-12 col-md-6 align-item-center">
-            <img src={logo} alt="About pic" style={{height:"80%", width: "80%"}} className="about-logo m-4"/></div>
-            <div className="col-sm-12 col-md-6"> 
+                    <div className="col-sm-12 col-md-6 align-item-center about-logo">
+            <img src={logo} alt="About pic" style={{ width: "50%"}} className="m-4"/></div>
+            <div className="col-sm-12 col-md-6 mt-5"> 
             <h3 className="title">
                 About 
             </h3>

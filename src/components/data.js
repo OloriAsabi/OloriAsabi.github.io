@@ -4,28 +4,24 @@ import { AiFillMail } from "react-icons/ai";
 export const links = [
   {
     id: 1,
-    url: '/',
-    text: 'home',
+    img:"./ProjectImages/AshabiPieShopHome.png",
+    url: 'https://oloriasabi.github.io/Ashabi-s-Pie-Shop/',
+    text: "Ashabi's Pie App",
+    info: "Built with HTML, CSS,JavaScript and Bootstrap to build this app"
   },
   {
     id: 2,
-    url: 'about',
-    text: 'about',
+    img:"./ProjectImages/CocktailHome.png",
+    url: 'https://oloriasabi.github.io/cocktail-app/',
+    text: 'Cocktail App',
+    info: "Using API to fecth the necessary display data and I used React.js, CSS to build this App"
   },
   {
     id: 3,
-    url: 'projects',
-    text: 'projects',
-  },
-  {
-    id: 4,
-    url: 'skills',
-    text: 'skills',
-  },
-  {
-    id: 5,
-    url: 'contact',
-    text: 'contact',
+    img:"./ProjectImages/RandomPerson.png",
+    url: 'https://oloriasabi.github.io/random-person-app/',
+    text: 'Random Person App', 
+    info: "Using API to fecth the necessary display data and I used React.js, CSS to build this App",
   }
 ];
 

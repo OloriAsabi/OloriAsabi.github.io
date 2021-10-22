@@ -1,12 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProgressBar from 'react-bootstrap/ProgressBar';
+import logo from "../Images/Olori-logo.png";
 import CV from "../Files/Ashabi_Lateefat_Oduntan_most recent.pdf";
 
 
 function Skills()  {
     return(
-        <section className="sec">
+        <section className="sec section">
           <div className="container skills">
+          <div className="about-logo">
+            <img src={logo} alt="About pic" style={{ width: "50%"}} className="m-4"/></div>
+                
             <h2 className="text-7 fw-600 mt-5 mb-4 pb-2 wow fadeInUp">My Skills</h2>
             <div className="row gx-5">
           <div className="col-md-6 wow fadeInUp">
@@ -26,7 +30,9 @@ function Skills()  {
             <ProgressBar variant="danger" now={99} />
           </div>
         </div>
+        <div>
         <p className="text-center mt-5 wow fadeInUp "><a href={CV} className="btn btn-outline-white btn-dark shadow-none rounded-0">Download CV</a></p>
+        </div>
         </div>
         </section>
     )

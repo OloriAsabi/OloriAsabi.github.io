@@ -49,6 +49,7 @@ export default function Navbar () {
           <FaBars className="menu-icon" />
         )}
       </div>
+
     </header>
     </nav>
   );

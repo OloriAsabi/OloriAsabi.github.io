@@ -43,7 +43,20 @@ Variables
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
   --fixed-width: 620px;
+
 }
+.light-theme {
+  --background-color: #fff;
+  --text-color: #282c35;
+  --primary-color: rgb(87, 20, 20);
+}
+
+.dark-theme {
+  --background-color: #282c35;
+  --text-color: #fff;
+  --primary-color: rgb(87, 20, 20);
+}
+
 
 /*
 =============== 
@@ -71,6 +84,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
   font-size: 0.875rem;
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 code {
@@ -195,6 +210,11 @@ button .show-text .settings-btn{
       display: none;
   }
 }  
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
 
 
 /* Nav*/
@@ -243,7 +263,7 @@ nav {
 
 
 .option :hover {
-  color: #000;
+  color: var(--clr-black);
   padding-left: 1.5rem;
   border-bottom: 1px solid black;
 }
@@ -328,10 +348,16 @@ header  {
   background-repeat: no-repeat;
   background-size: auto;
 }
+
+@media screen and (min-width: 768px){
+  .bg-photo{
+    left: 70%;
+  }
+}
      
 
 .banner {
-min-height: 100vh;
+
 position: fixed;
  margin: auto;
  padding: 5rem;
@@ -381,8 +407,9 @@ margin-bottom: 1.25rem;
 letter-spacing: 2px;
 }
 .socials {
-display: inline-block;
-margin: -5px;
+display: block;
+text-align: center;
+margin-left: -80px;
 font-size: 0.875rem;
 cursor: pointer;
 padding-bottom: 2rem;
@@ -393,13 +420,13 @@ display: inline-block;
 }
 .socials a {
 font-size: 1.5rem;
-margin: 0 0.5rem;
+margin: 00.5rem;
 color: var(--clr-black);
-
 }
 
 .socials a:hover {
-color: rgb(125, 120, 120);
+color:var(--clr-black);
+border-bottom: 2px solid black;
 }
 
 
@@ -408,22 +435,28 @@ color: rgb(125, 120, 120);
   font-family: 'Andada Pro', serif;
 }
 .underline {
-  width: 3rem;
+  width: 5rem;
   height: 0.25rem ;
   margin-bottom: 4rem;
-  background: black;
+  background: var(--clr-black);
   margin-left: auto;
   margin-right: auto;
 }
 .title {
   margin-bottom: 1.5rem;
   text-align: center;
-  color: black;
+  color: var(--clr-black);
   font-weight: 800;
 }
 
 
-
+.about-logo{ 
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
 
 article .text{
   font-family: 'Andada Pro', serif;
@@ -434,23 +467,32 @@ text-transform: capitalize;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  color: #000;
+  color: var(--clr-black);
 }
 
 .skills h2{
   font-weight: 800;
-  color: #000;
+  color: var(--clr-black);
 }
 
 .skills p {
   font-weight: 600;
-  color: #000;
+  color: var(--clr-black);
 }
+.social  {
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 0.875rem;
+  cursor: pointer;
+  padding-bottom: 2rem;
+  }
 
 
 /* Contact*/
 .content{
-  margin: 30px;
+ 
   justify-content: center;
   align-items: center;
 }
@@ -466,11 +508,99 @@ text-transform: capitalize;
   font-family: 'Andada Pro', serif;
   align-items: center;
   color: var(--clr-black);
-  
 
 }
 
-.socials-contact{
-  margin-left: auto;
-  margin-right: auto;
+
+
+
+/* Projects*/
+.project{
+  width: 70vw !important;
+  margin: 0 auto;
+  max-width: 1170px;
+  display: grid;
+  gap: 3rem 2rem;
+  justify-items: center;
+  padding: 5rem 0;
 }
+
+
+.single-project {
+  color: var(--clr-black);
+  border-radius: var(--radius);
+  margin-bottom: 2rem;
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+  font-family: 'Andada Pro', serif;
+  background: var(--clr-white);
+  display: grid;
+  gap: 1rem 2rem;
+}
+
+
+.single-project:hover {
+  box-shadow: var(--dark-shadow);
+}
+
+.single-project img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.project-info {
+  justify-content: center;
+  align-items: center;
+margin-bottom: 0.3rem;
+padding: 2rem; 
+}
+.project-info h4 {
+  padding: 5px;
+}
+.project-info p{
+  padding:3px;
+}
+
+.data{
+  background: var(--clr-black);
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius);
+  color: var(--clr-white);
+  text-transform: capitalize;
+  letter-spacing: 1.5;
+  font-style: italic;
+}
+.project-info p{
+  color: var(--clr-black);
+}
+
+.project-list ul{
+  display: block;
+  flex-wrap: wrap;
+  margin: 1.5rem 0;
+  padding: 0 1rem;
+  list-style-type :disc;
+}
+
+@media screen and (min-width: 768px) {
+  .project{
+    gap: 30px !important;
+  }
+  .single-project img {
+    height: 100%;
+  }
+}
+
+/*.btn {
+  background: var(--background-color);
+  color: var(--text-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 5px;
+  border-color: transparent;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+  font-weight: bold;
+  letter-spacing: 2px;
+  cursor: pointer;
+}*/

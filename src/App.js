@@ -6,12 +6,13 @@ import { BrowserRouter as Router,
 
 
 
-
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from "./components/About";
+import Project from "./components/Project";
 import Skills  from "./components/MySkills";
 import Contact from "./components/Contact";
-import Navbar from './components/Navbar';
+
 
 function App() {
   return(
@@ -23,6 +24,9 @@ function App() {
         </Route>
       <Route path="/about">
           <About />
+        </Route>
+        <Route path="/project">
+          <Project />
         </Route>
         <Route path="/skills">
           <Skills />

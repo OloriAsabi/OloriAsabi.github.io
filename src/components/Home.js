@@ -5,7 +5,7 @@ import { social } from './data';
 function Home () {
         return(
           <main>
-            <section className="main ">
+            <section className="main section">
             <div className="banner container">
             <div className="section-center row">
               <div className="col-sm-12 col-md-12">
@@ -20,7 +20,7 @@ function Home () {
             const { id, url, icon } = socialIcon;
             return (
               <li key={id}>
-                <a href={url}>{icon}</a>
+                <a href={url} className="" >{icon}</a>
               </li>
             );
           })}
