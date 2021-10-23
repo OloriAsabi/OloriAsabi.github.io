@@ -5,7 +5,7 @@
   "categories": ["Technologies","Computer Science", "Frontend developer/engineer", "education", "lagos/Nigeria"],
   "lang": "en",
   "orientation": "any",
-  "start_url": "/olori-asabi-app",
+  "start_url": ".",
   "scope": "/",
   "icons": [
     {

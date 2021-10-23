@@ -5,14 +5,13 @@ import { BrowserRouter as Router,
  } from "react-router-dom";
 
 
-
-import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from "./components/About";
 import Project from "./components/Project";
 import Skills  from "./components/MySkills";
 import Contact from "./components/Contact";
 
+import Navbar from './components/Navbar';
 
 function App() {
   return(

@@ -16,9 +16,9 @@ export default function Navbar () {
     <nav>
     <header className="header container">
       <div className="logo-nav">
-      
+      <Link to="/">
         <img src={logo} className='logo' alt='logo' />
-       
+       </Link>
 
         <ul className={click ? "nav-options active" : "nav-options"}>
           <li className="option" onClick={closeMobileMenu}>

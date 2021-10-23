@@ -16,13 +16,10 @@ function Project() {
                 <div className="underline"></div>
                   </div>  
 
-                
-                <main className="project container">
-                    <div className="row">
-                <article className="single-project col-sm-12 col-md-6">
-                    <div>
-                        <img src={image1} alt="pic" />
-                        </div>
+        <main className="project container">
+          <div className="row">
+                <div className="single-project col-sm-12">    
+                        <div><img src={image1} alt="pic"/></div>
                         <div className="project-info">
                             <h4>Ashabi's Pie App</h4>
                             <p>
@@ -36,13 +33,12 @@ function Project() {
                             </ul>
                             </div>
                                 <p><a href="https://oloriasabi.github.io/Ashabi-s-Pie-Shop/" className="data">Visit Site</a></p>    
-                                </div>  
-                    </article>
+                                </div> 
+                                 
+                    </div>
 
-                    <article className="single-project col-sm-12 col-md-6">
-                    <div>
-                        <img src={image2} alt="pic" />
-                        </div>
+                    <div className="single-project col-sm-12">
+                        <div><img src={image2} alt="pic" /></div>
                         <div className="project-info">
                             <h4>Cocktail App</h4>
                             <p>
@@ -57,13 +53,12 @@ function Project() {
                             </div>
                            <p> <a href="https://oloriasabi.github.io/random-person-app/https://oloriasabi.github.io/cocktail-app/" className="data">Visit Site</a>   
                                 </p>    
-                                </div>  
-                    </article>
+                                </div> 
+                            
+                    </div>
 
-                    <article className="single-project col-sm-12 col-md-6">
-                    <div>
-                        <img src={image3} alt="pic" />
-                        </div>
+                    <div className="single-project col-sm-12">
+                        <div><img src={image3} alt="pic" /></div>
                         <div className="project-info">
                             <h4>Random Person App</h4>
                             <p>
@@ -77,8 +72,9 @@ function Project() {
                             </ul>
                             </div>
                                 <a href="https://oloriasabi.github.io/random-person-app/" className="data">Visit Site</a>   
-                                </div>  
-                    </article>
+                                </div>
+                             
+                    </div>
                     </div>
                     </main>
                 </section>

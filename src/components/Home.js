@@ -5,22 +5,22 @@ import { social } from './data';
 function Home () {
         return(
           <main>
-            <section className="main section">
+            <section className="section">
             <div className="banner container">
             <div className="section-center row">
               <div className="col-sm-12 col-md-12">
-              <h4>Welcome </h4>
-                <h1>I'm Olorì Àṣàbí</h1>
+              <h5>Welcome </h5>
+                <h1>I'm Àṣàbí</h1>
               </div>
               <div className="col-sm-12 col-md-12">
               <p> Frontend Engineer</p></div>
-              <div className="socials col-sm-12 col-md-12">
+              <div className="socials">
                   <ul>
                   {social.map((socialIcon) => {
             const { id, url, icon } = socialIcon;
             return (
               <li key={id}>
-                <a href={url} className="" >{icon}</a>
+                <a href={url} >{icon}</a>
               </li>
             );
           })}

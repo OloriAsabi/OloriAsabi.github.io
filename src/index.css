@@ -242,7 +242,7 @@ nav {
   height: 5.25rem;
 }
 .nav-options {
-  padding-left: 25px;
+  padding-left: 65px;
   display: grid;
   grid-template-columns: repeat(5, auto);
   grid-gap: 50px;
@@ -274,7 +274,7 @@ nav {
 @media (max-width: 765px) {
   /*Mobile View */
   .header {
-    padding: 0px 10px;
+    padding: 0px 20px;
   }
   .logo {
     height:4.25rem;
@@ -312,6 +312,7 @@ nav {
     width: 22px;
     height: 22px;
     display: flex;
+    cursor: pointer;
   }
   .option {
     display: flex;
@@ -328,6 +329,7 @@ nav {
 }
 .mobile-menu {
   display: block;
+  cursor: pointer;
 }
 
 /* Home
@@ -357,27 +359,23 @@ header  {
      
 
 .banner {
-
 position: fixed;
- margin: auto;
  padding: 5rem;
     height: 100%;
     display: flex;
  justify-content: center;
 align-items:center;
-
+text-align: justify;
 }
 
-.section-center h4{
+.section-center h5{
   font-family: 'Andada Pro', serif;
     color: var(--clr-black);
     text-transform: uppercase;
     margin-top: auto;
     letter-spacing: 1.5px;
-    text-align: justify;
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: 700;
-    margin: auto;
     margin-bottom: 2rem;
 }
 
@@ -389,7 +387,6 @@ color: var(--clr-black);
 text-transform: uppercase;
 margin-top: auto;
 letter-spacing: 1.5px;
-text-align: justify;
 font-size: 2em;
 font-weight: 800;
 margin: auto;
@@ -399,29 +396,31 @@ margin-bottom: 2rem;
   font-family: 'Andada Pro', serif;
 color: var(--clr-black);
 margin: auto;
-font-size: 1.5em;
+font-size: 1.2em;
 font-weight: 600;
 align-items: center;
-text-align: justify;
 margin-bottom: 1.25rem;
 letter-spacing: 2px;
 }
 .socials {
 display: block;
-text-align: center;
-margin-left: -80px;
+align-items: center;
+margin-left: -35px;
 font-size: 0.875rem;
 cursor: pointer;
 padding-bottom: 2rem;
 }
 .socials li{
-margin: 0px 12px 0px 0px;
+margin: 0px 22px 0px 0px;
 display: inline-block;
+
 }
 .socials a {
 font-size: 1.5rem;
 margin: 00.5rem;
 color: var(--clr-black);
+margin-right: auto;
+margin-left: auto;
 }
 
 .socials a:hover {
@@ -451,8 +450,8 @@ border-bottom: 2px solid black;
 
 
 .about-logo{ 
-  text-align: center;
   display: block;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
  
@@ -460,7 +459,7 @@ border-bottom: 2px solid black;
 
 article .text{
   font-family: 'Andada Pro', serif;
-text-transform: capitalize;
+text-transform:initial;
   letter-spacing: 2px;
   margin: auto;
   margin-top: 2rem;
@@ -479,20 +478,10 @@ text-transform: capitalize;
   font-weight: 600;
   color: var(--clr-black);
 }
-.social  {
-  display: block;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  font-size: 0.875rem;
-  cursor: pointer;
-  padding-bottom: 2rem;
-  }
 
 
 /* Contact*/
 .content{
- 
   justify-content: center;
   align-items: center;
 }
@@ -516,7 +505,7 @@ text-transform: capitalize;
 
 /* Projects*/
 .project{
-  width: 70vw !important;
+  width: 50vw !important;
   margin: 0 auto;
   max-width: 1170px;
   display: grid;
@@ -553,7 +542,7 @@ text-transform: capitalize;
   justify-content: center;
   align-items: center;
 margin-bottom: 0.3rem;
-padding: 2rem; 
+padding: 1rem; 
 }
 .project-info h4 {
   padding: 5px;
@@ -584,12 +573,15 @@ padding: 2rem;
 }
 
 @media screen and (min-width: 768px) {
-  .project{
-    gap: 30px !important;
+  .single-project{
+    grid-template-columns: 225px 1fr;
+    gap: 0 1.25rem;
+    max-width: 40rem
   }
   .single-project img {
     height: 100%;
   }
+
 }
 
 /*.btn {
