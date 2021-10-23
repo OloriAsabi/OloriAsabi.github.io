@@ -15,7 +15,9 @@ import Navbar from './components/Navbar';
 
 function App() {
   return(
-    <Router>
+  
+     
+    <Router basename="/olori-asabi-app">
       <Navbar/>
       <Switch>
         <Route exact path="/">
@@ -35,6 +37,7 @@ function App() {
         </Route>
       </Switch>
       </Router>
+  
   )
 }
 export default App;
