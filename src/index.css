@@ -84,8 +84,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
   font-size: 0.875rem;
-  background-color: var(--background-color);
-  color: var(--text-color);
 }
 
 code {
@@ -330,6 +328,7 @@ nav {
 .mobile-menu {
   display: block;
   cursor: pointer;
+color: var(--clr-black);
 }
 
 /* Home
@@ -340,7 +339,7 @@ header  {
      
 
 .bg-photo {
-  z-index: -9;
+  z-index: -10;
   position: fixed;
   top: 0;
   right: 0;
@@ -360,16 +359,15 @@ header  {
 
 .banner {
 position: fixed;
- padding: 5rem;
-    height: 100%;
-    display: flex;
- justify-content: center;
+font-family: 'Andada Pro', serif;
+padding: 5rem;
+display: flex;
+justify-content: center;
 align-items:center;
 text-align: justify;
 }
 
 .section-center h5{
-  font-family: 'Andada Pro', serif;
     color: var(--clr-black);
     text-transform: uppercase;
     margin-top: auto;
@@ -382,7 +380,6 @@ text-align: justify;
 
 
 .section-center h1{
-  font-family: 'Andada Pro', serif;
 color: var(--clr-black);
 text-transform: uppercase;
 margin-top: auto;
@@ -393,7 +390,6 @@ margin: auto;
 margin-bottom: 2rem;
 }
 .section-center p{
-  font-family: 'Andada Pro', serif;
 color: var(--clr-black);
 margin: auto;
 font-size: 1.2em;
