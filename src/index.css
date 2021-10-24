@@ -247,7 +247,7 @@ nav {
   font-family: 'Andada Pro', serif;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--clr-black);
+   color: var(--clr-black);
   font-size: 1rem;
   display: flex;
   padding: auto;
