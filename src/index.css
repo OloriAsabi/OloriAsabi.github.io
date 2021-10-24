@@ -168,15 +168,6 @@ button .show-text .settings-btn{
   margin: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left) !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  body, .container {
-      background-color: #666;
-      color: #eee;
-  }
-  h1 {
-      color: #EEE;
-  }
-}
 @media(-ms-high-contrast:active ){
   
 }
@@ -347,8 +338,8 @@ header  {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 30%;
-  background-image: url(./Images/OloriSketch.png);
+  left: 30% !important;
+  background-image: url(./Images/OloriSketch.png) !important;
   background-repeat: no-repeat;
   background-size: auto;
 }
@@ -435,7 +426,7 @@ border-bottom: 2px solid black;
   width: 5rem;
   height: 0.25rem ;
   margin-bottom: 4rem;
-  background: var(--clr-black);
+  background-color: var(--clr-black);
   margin-left: auto;
   margin-right: auto;
 }
@@ -544,6 +535,7 @@ padding: 1rem;
 }
 .project-info h4 {
   padding: 5px;
+  font-size: 1.5rem;
 }
 .project-info p{
   padding:3px;
