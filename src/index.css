@@ -345,7 +345,7 @@ header  {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 50%;
+  left: 60%;
   background-image: url(./Images/OloriSketch.png);
   background-repeat: no-repeat;
   background-size: auto;
@@ -360,9 +360,7 @@ header  {
 
 .banner {
 position: fixed;
-padding: 5rem;
 height: 100%;
-width: 100%;
 display: flex;
 justify-content: center;
 align-items:center;
