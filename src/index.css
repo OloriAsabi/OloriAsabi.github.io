@@ -84,8 +84,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
   font-size: 0.875rem;
-  background-color: var(--background-color);
-  color: var(--text-color);
 }
 
 code {
@@ -221,9 +219,10 @@ button .show-text .settings-btn{
 nav {
   background: var(--clr-white);
   box-shadow: var(--light-shadow);
+ 
 }
 /*Desktop View*/
-.header {
+.header { 
   display: flex;
   background: var(--clr-white);
   justify-content: space-between;
@@ -340,7 +339,7 @@ header  {
      
 
 .bg-photo {
-  z-index: -9;
+  z-index: -10;
   position: fixed;
   top: 0;
   right: 0;
@@ -360,10 +359,11 @@ header  {
 
 .banner {
 position: fixed;
- padding: 5rem;
-    height: 100%;
-    display: flex;
- justify-content: center;
+padding: 5rem;
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
 align-items:center;
 text-align: justify;
 }
@@ -505,7 +505,7 @@ text-transform:initial;
 
 /* Projects*/
 .project{
-  width: 50vw !important;
+  width: 60vw !important;
   margin: 0 auto;
   max-width: 1170px;
   display: grid;
@@ -539,8 +539,8 @@ text-transform:initial;
   display: block;
 }
 .project-info {
-  justify-content: center;
-  align-items: center;
+justify-content: center;
+align-items: center;
 margin-bottom: 0.3rem;
 padding: 1rem; 
 }
@@ -583,16 +583,3 @@ padding: 1rem;
   }
 
 }
-
-/*.btn {
-  background: var(--background-color);
-  color: var(--text-color);
-  padding: 0.25rem 0.5rem;
-  border-radius: 5px;
-  border-color: transparent;
-  text-transform: capitalize;
-  transition: all 0.3s linear;
-  font-weight: bold;
-  letter-spacing: 2px;
-  cursor: pointer;
-}*/
