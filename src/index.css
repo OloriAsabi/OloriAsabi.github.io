@@ -84,6 +84,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
   font-size: 0.875rem;
+  background-color: var(--clr-white);
+  color: var(--clr-black);
 }
 
 code {
