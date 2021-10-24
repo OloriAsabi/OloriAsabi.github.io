@@ -19,7 +19,7 @@ function About() {
             
                         
             <article>
-                <p className="text">
+                <p className="text mb-5">
                     My name is Ashabi Oduntan and I’m a self taught frontend web developer from Nigeria. I’ve made my entrance onto the scene fairly recently and have so far picked up skills in a number of frontend development technologies.
 
                     I have an eye for aesthetics and a penchant for paying attention to design details. These personal attributes help me deliver top quality products with an appealing user interface and a most satisfying user experience. 
