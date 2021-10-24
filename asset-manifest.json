@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.21497097.chunk.css",
+    "main.css": "/static/css/main.6f36f814.chunk.css",
     "main.js": "/static/js/main.c04df304.chunk.js",
     "main.js.map": "/static/js/main.c04df304.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.ddeb1584.js",
@@ -14,7 +14,7 @@
     "service-worker.js": "/service-worker.js",
     "service-worker.js.map": "/service-worker.js.map",
     "static/css/2.f2512455.chunk.css.map": "/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.21497097.chunk.css.map": "/static/css/main.21497097.chunk.css.map",
+    "static/css/main.6f36f814.chunk.css.map": "/static/css/main.6f36f814.chunk.css.map",
     "static/js/2.deb3bbd9.chunk.js.LICENSE.txt": "/static/js/2.deb3bbd9.chunk.js.LICENSE.txt",
     "static/media/AshabiPieShopHome.a2dc82da.png": "/static/media/AshabiPieShopHome.a2dc82da.png",
     "static/media/Ashabi_Lateefat_Oduntan_most recent.b9af0dcc.pdf": "/static/media/Ashabi_Lateefat_Oduntan_most recent.b9af0dcc.pdf",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.ddeb1584.js",
     "static/css/2.f2512455.chunk.css",
     "static/js/2.deb3bbd9.chunk.js",
-    "static/css/main.21497097.chunk.css",
+    "static/css/main.6f36f814.chunk.css",
     "static/js/main.c04df304.chunk.js"
   ]
 }
