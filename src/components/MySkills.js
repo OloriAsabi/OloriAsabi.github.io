@@ -6,7 +6,7 @@ import CV from "../Files/Ashabi_Lateefat_Oduntan_most recent.pdf";
 
 function Skills()  {
     return(
-        <section className="sec section">
+        <section className="sec">
           <div className="container skills">
           <div className="about-logo">
             <img src={logo} alt="About pic" style={{ width: "50%"}} className="m-4"/></div>

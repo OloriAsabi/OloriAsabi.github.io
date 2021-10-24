@@ -6,8 +6,8 @@ function About() {
     
         
     return(
-        <section className="sec section" >
-            <div className="container">
+        <section className="sec" >
+            <div className="container section">
                 <div className="row align-items-center">
                     <div className="col-sm-12 col-md-6 align-item-center about-logo">
             <img src={logo} alt="About pic" style={{ width: "50%"}} className="m-4"/></div>

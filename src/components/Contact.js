@@ -6,8 +6,8 @@ import logo from "../Images/Olori-logo.png";
 
 function Contact() {
     return(
-        <div className="content section">
-          <div className="container">
+        <div className="content">
+          <div className="container section">
           <div className="row align-item-center">
             <div className="about-logo col-sm-12 col-md-6 align-item-center">
             <img src={logo} alt="About pic" style={{ width: "50%"}} className="m-4"/></div>

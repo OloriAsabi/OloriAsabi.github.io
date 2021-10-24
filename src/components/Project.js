@@ -7,15 +7,15 @@ import image3 from "./ProjectImages/RandomPerson.png";
 function Project() {
 
     return(
-        <section className="section">               
-         
+        <section>               
+         <div className="section">
                 <div className="about-logo">
             <img src={logo} alt="About pic" style={{ width: "50%"}} className="m-4"/></div>
                  <div className="title">   
                  <h2>My personal Projects</h2>
                 <div className="underline"></div>
                   </div>  
-
+          </div>
         <main className="project container">
           <div className="row">
                 <div className="single-project col-sm-12">    
