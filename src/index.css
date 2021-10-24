@@ -360,14 +360,9 @@ header  {
 
 .banner {
 position: fixed;
-<<<<<<< HEAD
 padding: 5rem;
 height: 100%;
 width: 100%;
-=======
-font-family: 'Andada Pro', serif;
-padding: 5rem;
->>>>>>> dfa3b90d4da6f8b57d79f2bee38cba9acb80d178
 display: flex;
 justify-content: center;
 align-items:center;
@@ -586,19 +581,3 @@ padding: 1rem;
   }
 
 }
-<<<<<<< HEAD
-=======
-
-/*.btn {
-  background: var(--background-color);
-  color: var(--text-color);
-  padding: 0.25rem 0.5rem;
-  border-radius: 5px;
-  border-color: transparent;
-  text-transform: capitalize;
-  transition: all 0.3s linear;
-  font-weight: bold;
-  letter-spacing: 2px;
-  cursor: pointer;
-}*/
->>>>>>> dfa3b90d4da6f8b57d79f2bee38cba9acb80d178
