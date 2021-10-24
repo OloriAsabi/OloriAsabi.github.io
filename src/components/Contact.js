@@ -15,10 +15,11 @@ function Contact() {
             <div className="col-sm-12 col-md-6 mt-5">
             <h1 className="mb-5">Let's get in touch!</h1>
              <p className="mb-5">
-            I'm seeking out opportunities to collaborate with companies / agencies / 
-            individuals, not just work for them. I want to bring my collective design
-            experience to the table where we can work together to solve real business-problems 
-            in a way that optimizes all of our respective experience and knowledge.
+             I'm currently open to working with diverse clientele; from individuals to organisations operating at different scales. I’m excited to bring my design experience to a range of projects: whether they be legacy products needing maintenance or freshly conceptualised ones.
+
+             <br />
+             <br />
+              I am available via any of the communication channels listed below. Do send a hello and let’s have a conversation.
              </p>
             <div className="socials text-center">
                  <ul>

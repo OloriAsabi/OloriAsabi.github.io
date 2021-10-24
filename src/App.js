@@ -17,7 +17,7 @@ function App() {
   return(
   
      
-    <Router basename="/OloriAsabi.github.io">
+    <Router basename="/olori-asabi-app">
       <Navbar/>
       <Switch>
         <Route exact path="/">

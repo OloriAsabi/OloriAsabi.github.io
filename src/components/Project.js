@@ -42,7 +42,7 @@ function Project() {
                         <div className="project-info">
                             <h4>Cocktail App</h4>
                             <p>
-                                A cocktail website Using API to fecth the necessary display data
+                            A website built to showcase various deligihtful cocktails and API integration in React JS to fetch data
                             </p>
                             <div className="project-list">
                             <ul>
@@ -51,7 +51,7 @@ function Project() {
                                 <li>React.js</li>
                             </ul>
                             </div>
-                           <p> <a href="https://oloriasabi.github.io/random-person-app/https://oloriasabi.github.io/cocktail-app/" className="data">Visit Site</a>   
+                           <p> <a href="https://oloriasabi.github.io/cocktail-app/" className="data">Visit Site</a>   
                                 </p>    
                                 </div> 
                             
@@ -62,7 +62,7 @@ function Project() {
                         <div className="project-info">
                             <h4>Random Person App</h4>
                             <p>
-                            Using API to fecth the necessary display data, I built a profile display website
+                             I built a profile display website and API integration in React JS to fetch data
                             </p>
                             <div className="project-list">
                             <ul>

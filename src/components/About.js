@@ -19,10 +19,17 @@ function About() {
             
                         
             <article>
-                <p className="text">I'm self taught Frontend developer
-                from Nigeria.
-                I've been building website since 2020 with a focus on responsive design, accessibility and pleasing aesthetics</p>
-            </article></div>
+                <p className="text">
+                    My name is Ashabi Oduntan and I’m a self taught frontend web developer from Nigeria. I’ve made my entrance onto the scene fairly recently and have so far picked up skills in a number of frontend development technologies.
+
+                    I have an eye for aesthetics and a penchant for paying attention to design details. These personal attributes help me deliver top quality products with an appealing user interface and a most satisfying user experience. 
+
+                    But not only do I pay attention to design, I am a lover of nature with a heightened awareness of its features. Thus, nature is another source from which I take my design inspiration; its simplicity as well as its rich originality.
+
+                    When I am not honing my programming skills by learning new technologies or taking on new projects, I enjoy my other life as a professional disc jockey.
+                    </p>
+            </article>
+            </div>
             </div>
             </div>
         </section>
