@@ -84,6 +84,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.5;
   font-size: 0.875rem;
+  background-color: var(--clr-white);
+   color: var(--clr-black);
 }
 
 code {
@@ -254,7 +256,7 @@ nav {
   font-family: 'Andada Pro', serif;
   text-decoration: none;
   text-transform: capitalize;
-  color: var(--clr-black);
+   color: var(--clr-black);
   font-size: 1rem;
   display: flex;
   padding: auto;
@@ -360,9 +362,7 @@ header  {
 
 .banner {
 position: fixed;
-padding: 5rem;
 height: 100%;
-width: 100%;
 display: flex;
 justify-content: center;
 align-items:center;
