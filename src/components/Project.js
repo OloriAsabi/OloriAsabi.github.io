@@ -1,4 +1,5 @@
 import React from 'react';
+import Typical from 'react-typical'
 import logo from "../Images/Olori-logo.png";
 import image1 from "./ProjectImages/AshabiPieShopHome.png";
 import image2 from "./ProjectImages/CocktailHome.png";
@@ -11,11 +12,22 @@ function Project() {
          <div className="section">
                 <div className="about-logo">
             <img src={logo} alt="About pic" style={{ width: "50%"}} className="m-4"/></div>
+            
+           
                  <div className="title">   
                  <h2>My personal Projects</h2>
                 <div className="underline"></div>
                   </div>  
           </div>
+
+          <div className="typical">
+            <Typical
+            className="type"
+                steps={['UpComing Projects:', 'Admin Dashboard built with Angular.js', 800]}
+                loop={Infinity}
+                wrapper="h4"
+            /> 
+            </div>
         <main className="project container">
           <div className="row">
                 <div className="single-project col-sm-12">    

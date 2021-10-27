@@ -1,4 +1,5 @@
 import React from 'react';
+import Typical from 'react-typical';
 import { social } from './data';
 //import pic from './Images/OloriSketch.png';
 
@@ -12,8 +13,9 @@ function Home () {
               <h5>Welcome </h5>
                 <h1>I'm Àṣàbí</h1>
               </div>
-              <div className="col-sm-12 col-md-12">
-              <p> Frontend Engineer</p></div>
+              <div className="col-sm-12 col-md-12 ">
+              <p>Frontend engineer</p>
+              </div>
               <div className="socials">
                   <ul>
                   {social.map((socialIcon) => {
