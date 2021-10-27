@@ -1,5 +1,4 @@
 import React from 'react';
-import Typical from 'react-typical';
 import { social } from './data';
 //import pic from './Images/OloriSketch.png';
 
