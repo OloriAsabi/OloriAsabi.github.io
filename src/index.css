@@ -452,8 +452,9 @@ border-bottom: 2px solid black;
 
 article .text{
   font-family: 'Andada Pro', serif;
-text-transform:initial;
+  text-transform:initial;
   letter-spacing: 2px;
+  line-height: 30px;
   margin: auto;
   margin-top: 2rem;
   justify-content: center;
@@ -461,6 +462,7 @@ text-transform:initial;
   font-weight: bold;
   color: var(--clr-black);
 }
+
 
 .skills h2{
   font-weight: 800;
@@ -471,7 +473,7 @@ text-transform:initial;
   font-family: 'Andada Pro', serif;
   text-align: justify;
   color: var(--clr-black);
-  line-height: 55px;
+  line-height: 30px;
 }
 
 .books{
@@ -496,12 +498,12 @@ text-transform:initial;
   line-height: 80px;
 }
 
-.content p{
+.content p {
   font-family: 'Andada Pro', serif;
   align-items: center;
   text-align: justify;
   color: var(--clr-black);
-
+  letter-spacing: 30px;
 }
 
 

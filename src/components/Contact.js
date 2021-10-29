@@ -14,7 +14,7 @@ function Contact() {
 
             <div className="col-sm-12 col-md-12 mt-5">
             <h1 className="mb-5">Let's get in touch!</h1>
-             <p className="mb-5 p-5">
+             <p className="mb-5 p-3">
              I'm currently open to working with diverse clientele; from individuals to organisations operating at different scales. I’m excited to bring my design experience to a range of projects: whether they be legacy products needing maintenance or freshly conceptualised ones.
 
              <br />
