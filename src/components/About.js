@@ -31,7 +31,7 @@ function About() {
                     </p>
             </article>
             <article>
-                <h3 className="text-center pb-5">books</h3>
+                <h3 className="text-center title">books</h3>
                 <div className="underline"></div>
                 <p className="text-black p-3 text">One of my most favorite things to do is to read books, I've a vast range and genres of books, let me share them with you</p>
                 <div className="p-3">
