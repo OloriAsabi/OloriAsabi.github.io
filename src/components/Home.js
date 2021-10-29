@@ -10,7 +10,7 @@ function Home () {
             <div className="section-center row">
               <div className="col-sm-12 col-md-12">
               <h5>Welcome </h5>
-                <h1>I'm Àṣàbí</h1>
+                <h1>I'm Olorì Àṣàbí</h1>
               </div>
               <div className="col-sm-12 col-md-12 ">
               <p>Frontend engineer</p>

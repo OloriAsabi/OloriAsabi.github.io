@@ -503,7 +503,8 @@ article .text{
   align-items: center;
   text-align: justify;
   color: var(--clr-black);
-  letter-spacing: 30px;
+  line-height: 30px;
+  letter-spacing: 1px;
 }
 
 
