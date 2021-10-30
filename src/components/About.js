@@ -38,7 +38,7 @@ function About() {
                     <ul className="books">
                         <li>The Alchemist by Paulo Coelho</li>
                         <li>Drive by Daniel Pink</li>
-                        <li>The War by Steven Pressfield</li>
+                        <li>The War of Art by Steven Pressfield</li>
                         <li>Stillness is the key by Ryan Holiday</li>
                         <li>The Lean Startup by Eric Ries</li>
                         <li>The Price of Progress by Christopher Ryan</li>
