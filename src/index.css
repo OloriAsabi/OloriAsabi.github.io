@@ -86,6 +86,7 @@ body {
   font-size: 0.875rem;
   background-color: var(--clr-white);
   color: var(--clr-black);
+  overscroll-behavior-y: contain;
 }
 
 code {
@@ -183,6 +184,46 @@ button .show-text .settings-btn{
       justify-items: center;        
       max-width: 100%;
   }
+  /* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  #cursor {
+      animation: none;
+  }
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  body, .container {
+      background-color: #666;
+  }
+  h1 {
+      color: #EEE;
+  }
+  #buttons button {
+      background-color: #555;
+      color: #EEE
+  }
+  #buttons button.operator {
+      background-color: #888;
+  }
+  #buttons button.special {
+      background-color: lightslategray;
+  }
+  #display {
+      background-color: black;
+      color: white;
+  }
+  #buttons button:hover {
+      background-color: rebeccapurple;
+  }
+  #button_info {
+      color: yellow;
+  }
+  #memory {
+      background: #444;
+      color: #DDD;
+  }
+}
 
   #memory, #button_clear, #button_info {
       display: none;
@@ -415,6 +456,7 @@ margin: 00.5rem;
 color: var(--clr-black);
 margin-right: auto;
 margin-left: auto;
+
 }
 
 .socials a:hover {
@@ -481,6 +523,7 @@ article .text{
   list-style-type: disc;
   letter-spacing: 1px;
   text-align: justify;
+
 }
 
 
