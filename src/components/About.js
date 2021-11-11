@@ -1,17 +1,20 @@
 import React from 'react';
 import logo from "../Images/Olori-logo.png";
+import RandomQuote from './RandomQuotes'
 
 
-function About() {
+ function About()  {
     
-        
     return(
         <section className="sec" >
             <div className="container section">
                 <div className="row align-items-center">
                     <div className="col-sm-12 col-md-12 align-item-center about-logo">
             <img src={logo} alt="About pic" style={{ width: "50%"}} className="m-4"/></div>
-            <div className="col-sm-12 col-md-12 mt-5"> 
+            <div className="col-sm-12 col-md-12 mt-5">
+                <div>
+                  <RandomQuote />  
+                </div>
             <h3 className="title">
                 About 
             </h3>
@@ -57,6 +60,7 @@ function About() {
                         <li>Inner Peace by Awo Falokun Fabunmi</li>
                         <li>Ifa Divination by William Bascom</li>
                         <li>React In Action by Mark Tielens Thomas</li>
+                        <li>Tao Te Ching(the book of the way) by Lao Tzu</li>
 
                     </ul>
                 </div> 
@@ -66,9 +70,10 @@ function About() {
            
             </div>
             </div>
+
         </section>
     )
-    
+        
 }
 
 export default About;

@@ -651,3 +651,33 @@ padding: 1rem;
   }
 
 }
+
+/* Quote*/
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.card{
+  padding: 40px;
+  border-radius: var(--radius);
+}
+.card-title{
+  font-size: 20px;
+  margin: 15px 0;
+  color: gray;
+  padding: 5px;
+}
+
+.card-text{
+  color: var(--clr-black);
+}
+
+.button {
+
+  background-color: var(--clr-black);
+  padding: 5px 10px;
+  color: var(--clr-white);
+}
+
