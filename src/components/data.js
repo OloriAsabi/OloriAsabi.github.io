@@ -86,7 +86,7 @@ export const list = [
   },
   {
     id: 11,
-    books: "Pimp: The Story of My Life by Iceberg Slim<"
+    books: "Pimp: The Story of My Life by Iceberg Slim"
   },
   {
     id: 12,

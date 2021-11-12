@@ -62,7 +62,7 @@ export const quotes = [
         author: "Olorì Àṣàbí"
     },
     {
-        text: "Opinions don’t change potentia",
+        text: "Opinions don’t change potential",
         author: "Olorì Àṣàbí"
     },
     {
