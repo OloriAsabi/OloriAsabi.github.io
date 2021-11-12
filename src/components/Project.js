@@ -45,7 +45,7 @@ function Project() {
                                 <li>JavaScript</li>
                             </ul>
                             </div>
-                                <p><a href="https://oloriasabi.github.io/Ashabi-s-Pie-Shop/" className="data">Visit Site</a></p>    
+                                <p><a href="https://oloriasabi.github.io/Ashabi-s-Pie-Shop/" target="_blank" rel="noreferrer" className="data">Visit Site</a></p>    
                                 </div> 
                                  
                     </div>
@@ -64,7 +64,7 @@ function Project() {
                                 <li>React.js</li>
                             </ul>
                             </div>
-                           <p> <a href="https://oloriasabi.github.io/cocktail-app/" className="data">Visit Site</a>   
+                           <p> <a href="https://oloriasabi.github.io/cocktail-app/" target="_blank" rel="noreferrer" className="data">Visit Site</a>   
                                 </p>    
                                 </div> 
                             
@@ -84,30 +84,31 @@ function Project() {
                                 <li>React.js</li>
                             </ul>
                             </div>
-                                <a href="https://oloriasabi.github.io/random-person-app/" className="data">Visit Site</a>   
+                                <a href="https://oloriasabi.github.io/random-person-app/" target="_blank" rel="noreferrer" className="data">Visit Site</a>   
                                 </div>
-
-                                <div className="single-project col-sm-12">
-                        <div><img src={image4} alt="pic" /></div>
-                        <div className="project-info">
-                            <h4>Dashboard App</h4>
-                            <p>
-                            A website built to showcase a Dashboard of Random Data
-                            </p>
-                            <div className="project-list">
-                            <ul>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Angular.js</li>
-                            </ul>
-                            </div>
-                           <p> <a href="https://oloriasabi.github.io/Dashboard-app/" className="data">Visit Site</a>   
-                                </p>    
-                                </div> 
-                            
                     </div>
                              
                     </div>
+                    <div className="single-project col-sm-12">
+                                    <div>
+                                        <img src={image4} alt="pic" />
+                                        </div>
+                                    <div className="project-info">
+                                        <h4>Dashboard App</h4>
+                                        <p>
+                                           A website built to showcase a Dashboard of Random Data
+                                        </p>
+                                        <div className="project-list">
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>Angular.js</li>
+                                        </ul>
+                                        </div>
+                                    <p> 
+                                        <a href="https://oloriasabi.github.io/Dashboard-app/" target="_blank" rel="noreferrer" className="data">Visit Site</a>   
+                                    </p>    
+                                </div> 
                     </div>
                     </main>
                 </section>
