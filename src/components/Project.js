@@ -4,6 +4,7 @@ import logo from "../Images/Olori-logo.png";
 import image1 from "./ProjectImages/AshabiPieShopHome.png";
 import image2 from "./ProjectImages/CocktailHome.png";
 import image3 from "./ProjectImages/RandomPerson.png";
+import image4 from "./ProjectImages/Dashboard.png";
 
 function Project() {
 
@@ -85,6 +86,26 @@ function Project() {
                             </div>
                                 <a href="https://oloriasabi.github.io/random-person-app/" className="data">Visit Site</a>   
                                 </div>
+
+                                <div className="single-project col-sm-12">
+                        <div><img src={image4} alt="pic" /></div>
+                        <div className="project-info">
+                            <h4>Dashboard App</h4>
+                            <p>
+                            A website built to showcase a Dashboard of Random Data
+                            </p>
+                            <div className="project-list">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Angular.js</li>
+                            </ul>
+                            </div>
+                           <p> <a href="https://oloriasabi.github.io/Dashboard-app/" className="data">Visit Site</a>   
+                                </p>    
+                                </div> 
+                            
+                    </div>
                              
                     </div>
                     </div>
