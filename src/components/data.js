@@ -49,3 +49,94 @@ export const social = [
     icon: <FaGithubSquare />,
   },
 ];
+
+export const list = [
+  {
+    id : 1,
+    books :"The Alchemist by Paulo Coelho"
+  },
+  {
+    id: 2,
+    books: "Drive by Daniel Pink"
+  },{
+    id: 3,
+    books: "The War of Art by Steven Pressfield"
+  },{
+    id:4,
+    books: "Stillness is the key by Ryan Holiday"
+  },{
+    id: 5,
+    books: "The Lean Startup by Eric Ries"
+  },
+  {
+    id: 7,
+    books:"The Price of Progress by Christopher Ryan"
+  },
+  {
+    id: 8,
+    books: "Books of five rings by Miamoto Musashi"
+  },
+  {
+    id: 9,
+    books: "The Theory of Everything by Stephen Hawking"
+  },
+  {
+    id: 10,
+    books: "Meditations by Marcus Aurelius"
+  },
+  {
+    id: 11,
+    books: "Pimp: The Story of My Life by Iceberg Slim<"
+  },
+  {
+    id: 12,
+    books: "Hustle Harder by Curtis Jackson"
+  },
+  {
+    id: 13,
+    books: "Eloquent Javascript - A modern introduction to programming by Marijn Haverbeke"
+  },
+  {
+    id: 14,
+    books: "Green Book by Gaddaffi"
+  },
+  {
+    id: 15,
+    books: "In the Company of Giants by Rama Jager"
+  },
+  {
+    id: 16,
+    books: "Women Who Run With The Wolves by Wild Woman Archetype"
+  },
+  {
+    id: 17,
+    books: "Javascript The Good Parts by Douglas Crockford"
+  },
+  {
+    id: 18,
+    books: "African Fractals by Ron Eglash"
+  },{
+    id: 19,
+    books: "Socrates and Orunmila by Sophie Bosede Oluwole"
+  },
+  {
+    id: 20,
+    books: "Inner Peace by Awo Falokun Fabunmi"
+  },
+  {
+    id: 21,
+    books: "Ifa Divination by William Bascom"
+  },
+  {
+    id: 22,
+    books: "React In Action by Mark Tielens Thomas"
+  },
+  {
+    id: 23,
+    books: "Tao Te Ching(the book of the way) by Lao Tzu"
+  },
+  {
+    id: 24,
+    books: "Fighting Corruption is Dangerous by Ngozi Okonjo-Iweala"
+  },
+]

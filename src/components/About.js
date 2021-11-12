@@ -1,10 +1,14 @@
 import React from 'react';
 import logo from "../Images/Olori-logo.png";
-import RandomQuote from './RandomQuotes'
+import RandomQuote from './RandomQuotes';
+import { list } from "./data";
 
 
  function About()  {
-    
+/*const [readMore, setReadMore] = useState(false);*/
+
+
+
     return(
         <section className="sec" >
             <div className="container section">
@@ -38,31 +42,21 @@ import RandomQuote from './RandomQuotes'
                 <div className="underline"></div>
                 <p className="text-black p-3 text">One of my most favorite things to do is to read books, I've a vast range and genres of books, let me share them with you</p>
                 <div className="p-3">
-                    <ul className="books">
-                        <li>The Alchemist by Paulo Coelho</li>
-                        <li>Drive by Daniel Pink</li>
-                        <li>The War of Art by Steven Pressfield</li>
-                        <li>Stillness is the key by Ryan Holiday</li>
-                        <li>The Lean Startup by Eric Ries</li>
-                        <li>The Price of Progress by Christopher Ryan</li>
-                        <li>Books of five rings by Miamoto Musashi</li>
-                        <li>The Theory of Everything by Stephen Hawking</li>
-                        <li>Meditations by Marcus Aurelius</li>
-                        <li>Th Book of The Way by Lao Tzu</li>
-                        <li>Hustle Harder by Curtis Jackson</li>
-                        <li>Eloquent Javascript - A modern introduction to programming by Marijn Haverbeke</li>
-                        <li>Green Book by Gaddaffi</li>
-                        <li>In the Company of Giants by Rama Jager</li>
-                        <li>Women Who Run With The Wolves by Wild Woman Archetype</li>
-                        <li>Javascript The Good Parts by Douglas Crockford</li>
-                        <li>African Fractals by Ron Eglash</li>
-                        <li>Socrates and Orunmila by Sophie Bosede Oluwole</li>
-                        <li>Inner Peace by Awo Falokun Fabunmi</li>
-                        <li>Ifa Divination by William Bascom</li>
-                        <li>React In Action by Mark Tielens Thomas</li>
-                        <li>Tao Te Ching(the book of the way) by Lao Tzu</li>
-
-                    </ul>
+                    <ul className="books mb-5">
+                    {list.map(( book ) => {
+                            const{ books, id} = book
+            return (
+                <div>
+                        <li key={id}>{books}
+                        </li>
+                        {/*<button onClick={() => setReadMore(!readMore)}>
+                            {readMore ? 'show less' : '  read more'}
+            </button>*/}
+                        </div>
+                    )
+                })}
+                   </ul>
+                   
                 </div> 
                 </article>
             </div>
