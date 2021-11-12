@@ -24,7 +24,7 @@ function Project() {
           <div className="typical">
             <Typical
             className="type"
-                steps={['UpComing Projects:', 'Admin Dashboard built with Angular.js', 800]}
+                steps={['UpComing Projects:', 'More Projects with Angular.js', 800]}
                 loop={Infinity}
                 wrapper="h4"
             /> 
