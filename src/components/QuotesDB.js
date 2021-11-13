@@ -232,6 +232,22 @@ export const quotes = [
     {
         text: "Words are the least reliable bearer of the truth",
         author: "Olorì Àṣàbí"
+    },
+    {
+        text: "Knowledge isn’t just for power, it’s for connection",
+        author: "Olorì Àṣàbí"
+    },
+    {
+        text: "The aim is to live harmoniously with Nature",
+        author: "Olorì Àṣàbí"
+    },
+    {
+        text: "Don’t worry about how you’re perceived, worry about how you present yourself.",
+        author: "Olorì Àṣàbí"
+    },
+    {
+        text: "All our organs are connected to some aspect of our consciousness",
+        author: "Olorì Àṣàbí"
     }
 
 
