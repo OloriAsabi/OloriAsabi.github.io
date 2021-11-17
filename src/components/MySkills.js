@@ -24,7 +24,7 @@ function Skills()  {
                  <div className="col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                   <p className="fw-500 text-start mb-2">React JS</p>
                   <ProgressBar variant="danger" now={70} />
-                  <p className="fw-500 text-start mb-2">Angular Js</p>
+                  <p className="fw-500 text-start mb-2">Angular</p>
                   <ProgressBar variant="danger" now={60} />
                   <p className="fw-500 text-start mb-2">Bootstrap</p>
                   <ProgressBar variant="danger" now={99} />
