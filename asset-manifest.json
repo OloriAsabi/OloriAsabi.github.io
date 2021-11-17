@@ -1,34 +1,33 @@
 {
   "files": {
-    "main.css": "/static/css/main.b374d3d3.chunk.css",
-    "main.js": "/static/js/main.ddd0bca2.chunk.js",
-    "main.js.map": "/static/js/main.ddd0bca2.chunk.js.map",
+    "main.css": "/static/css/main.175b8d18.chunk.css",
+    "main.js": "/static/js/main.e08babf8.chunk.js",
+    "main.js.map": "/static/js/main.e08babf8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c7dc40b4.js",
     "runtime-main.js.map": "/static/js/runtime-main.c7dc40b4.js.map",
     "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
-    "static/js/2.915f023d.chunk.js": "/static/js/2.915f023d.chunk.js",
-    "static/js/2.915f023d.chunk.js.map": "/static/js/2.915f023d.chunk.js.map",
+    "static/js/2.cf05432c.chunk.js": "/static/js/2.cf05432c.chunk.js",
+    "static/js/2.cf05432c.chunk.js.map": "/static/js/2.cf05432c.chunk.js.map",
     "static/js/3.3e6aaee5.chunk.js": "/static/js/3.3e6aaee5.chunk.js",
     "static/js/3.3e6aaee5.chunk.js.map": "/static/js/3.3e6aaee5.chunk.js.map",
     "index.html": "/index.html",
     "service-worker.js": "/service-worker.js",
     "service-worker.js.map": "/service-worker.js.map",
     "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.b374d3d3.chunk.css.map": "/static/css/main.b374d3d3.chunk.css.map",
-    "static/js/2.915f023d.chunk.js.LICENSE.txt": "/static/js/2.915f023d.chunk.js.LICENSE.txt",
+    "static/css/main.175b8d18.chunk.css.map": "/static/css/main.175b8d18.chunk.css.map",
+    "static/js/2.cf05432c.chunk.js.LICENSE.txt": "/static/js/2.cf05432c.chunk.js.LICENSE.txt",
     "static/media/AshabiPieShopHome.a2dc82da.png": "/static/media/AshabiPieShopHome.a2dc82da.png",
     "static/media/Ashabi_Lateefat_Oduntan_most recent.6d48751f.pdf": "/static/media/Ashabi_Lateefat_Oduntan_most recent.6d48751f.pdf",
     "static/media/CocktailHome.92992ac6.png": "/static/media/CocktailHome.92992ac6.png",
     "static/media/Dashboard.31635348.png": "/static/media/Dashboard.31635348.png",
     "static/media/Olori-logo.0838a674.png": "/static/media/Olori-logo.0838a674.png",
-    "static/media/index.css": "/static/media/OloriSketch.6c353320.png",
-    "static/media/RandomPerson.f6c13c5a.png": "/static/media/RandomPerson.f6c13c5a.png"
+    "static/media/index.css": "/static/media/OloriSketch.6c353320.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c7dc40b4.js",
     "static/css/2.c1256375.chunk.css",
-    "static/js/2.915f023d.chunk.js",
-    "static/css/main.b374d3d3.chunk.css",
-    "static/js/main.ddd0bca2.chunk.js"
+    "static/js/2.cf05432c.chunk.js",
+    "static/css/main.175b8d18.chunk.css",
+    "static/js/main.e08babf8.chunk.js"
   ]
 }
