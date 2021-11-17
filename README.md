@@ -1,2 +1,2 @@
-# olori-asabi-app
-# OloriAsabi.github.io
+# olori-asabi-personal-website
+
