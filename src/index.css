@@ -652,6 +652,10 @@ padding: 1rem;
 
 }
 
+.git{
+  font-size: 25px;
+}
+
 /* Quote*/
 .main{
   display: flex;
