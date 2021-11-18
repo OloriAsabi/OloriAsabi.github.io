@@ -24,7 +24,7 @@ function Project() {
           <div className="typical">
             <Typical
             className="type"
-                steps={['UpComing Projects:', 'More Projects with Angular.js', 800]}
+                steps={['UpComing Projects:', 'Building a project with Restful API', 800]}
                 loop={Infinity}
                 wrapper="h4"
             /> 
@@ -79,13 +79,13 @@ function Project() {
                                     <div className="project-info">
                                         <h4>Dashboard Website</h4>
                                         <p>
-                                           A website built to showcase a Dashboard of Random Data
+                                           A website built to showcase a dashboard of random Data
                                         </p>
                                         <div className="project-list">
                                         <ul>
                                             <li>HTML</li>
                                             <li>CSS</li>
-                                            <li>Angular.js</li>
+                                            <li>Angular</li>
                                         </ul>
                                         </div>
                                     <p> 
