@@ -40,7 +40,7 @@ export const social = [
   },
   {
     id: 3,
-    url: 'https://www.linkedin.com/in/ashabi-lateefat-oduntan-93b25b1a1/',
+    url: 'https://www.linkedin.com/in/ashabilateefatoduntan/',
     icon: <FaLinkedin />,
   },
   {
