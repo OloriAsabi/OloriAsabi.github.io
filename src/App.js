@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router,
-  Switch,
+  Routes,
   Route,
  } from "react-router-dom";
 
@@ -16,26 +16,19 @@ import Navbar from './components/Navbar';
 function App() {
   return(
   
+    //basename="/olori-asabi-app"
      
     <Router>
       <Navbar/>
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-      <Route path="/about">
-          <About />
-        </Route>
-        <Route path="/project">
-          <Project />
-        </Route>
-        <Route path="/skills">
-          <Skills />
-        </Route>
-        <Route path="/contact">
-          <Contact />
-        </Route>
-      </Switch>
+      <Routes>
+        <Route path='/' exact element={<Home/>} />  
+        <Route path='/about' element={<About/>} />
+        <Route path='/project' element={<Project/>} />
+        <Route path='/skills' element={<Skills/>} />
+        <Route path='/contact' element={<Contact/>} />
+        <Route>404 Not Found!</Route>
+        </Routes>
+
       </Router>
   
   )
