@@ -16,9 +16,9 @@ import Navbar from './components/Navbar';
 function App() {
   return(
   
-    //basename="/olori-asabi-app"
+
      
-    <Router>
+    <Router basename="/olori-asabi-app">
       <Navbar/>
       <Routes>
         <Route path='/' exact element={<Home/>} />  
