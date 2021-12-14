@@ -18,7 +18,7 @@ function App() {
   
 
      
-    <Router basename="/olori-asabi-app">
+    <Router>
       <Navbar/>
       <Routes>
         <Route path='/' exact element={<Home/>} />  
