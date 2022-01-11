@@ -700,3 +700,21 @@ letter-spacing: 3px;
   color: var(--clr-white);
 }
 
+
+.skill-box{
+  cursor: pointer;
+}
+.skill-title{
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.skill-icon{
+  width: 100px;
+  height: 100px;
+}
+
+
+

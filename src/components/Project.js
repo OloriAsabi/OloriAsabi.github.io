@@ -5,6 +5,7 @@ import image1 from "./ProjectImages/AshabiPieShopHome.png";
 import image2 from "./ProjectImages/CocktailHome.png";
 import image4 from "./ProjectImages/Dashboard.png";
 import image5 from "./ProjectImages/E-commerce.jpg";
+import image6 from "./ProjectImages/GbeduApp.jpg";
 import { AiOutlineGithub } from 'react-icons/ai'
 
 function Project() {
@@ -114,6 +115,25 @@ function Project() {
                                 </div> 
                                  
                     </div>
+
+                    <div className="single-project col-sm-12">    
+                        <div><img src={image6} alt="pic"/></div>
+                        <div className="project-info">
+                            <h4>GbeduApp</h4>
+                            <p>
+                            GbeduApp used to search for your favorite music using Spotify API
+                            </p>
+                            <div className="project-list">
+                            <ul>
+                                <li>CSS/Bootstrap</li>
+                                <li>Angular.js</li>
+                                <li>API using Spotify API</li>
+                            </ul>
+                            </div>
+                                <p><a href="https://oloriasabi.github.io/gbedu-app/" target="_blank" rel="noreferrer" className="data">Visit Site</a></p> 
+                                <a href="https://github.com/OloriAsabi/gbedu-app" target="_blank" rel="noreferrer"><AiOutlineGithub className="text-black git"/></a>   
+                                </div> 
+                            </div>
 
                     </div>
                     </main>
