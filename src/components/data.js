@@ -139,4 +139,12 @@ export const list = [
     id: 24,
     books: "Fighting Corruption is Dangerous by Ngozi Okonjo-Iweala"
   },
+  {
+    id: 25,
+    books: "A History of the Yoruba People by S. ADEBANJI AKINTOYE"
+  },
+  {
+    id: 26,
+    books: "The Upanishads by Paramananda"
+  }
 ]
