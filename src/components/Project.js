@@ -126,7 +126,7 @@ function Project() {
                             <div className="project-list">
                             <ul>
                                 <li>CSS/Bootstrap</li>
-                                <li>Angular.js</li>
+                                <li>Angular</li>
                                 <li>API using Spotify API</li>
                             </ul>
                             </div>
