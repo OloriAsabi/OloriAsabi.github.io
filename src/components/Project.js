@@ -6,6 +6,7 @@ import image2 from "./ProjectImages/CocktailHome.png";
 import image4 from "./ProjectImages/Dashboard.png";
 import image5 from "./ProjectImages/E-commerce.jpg";
 import image6 from "./ProjectImages/GbeduApp.jpg";
+import image7 from "./ProjectImages/react-form-app.png";
 import { AiOutlineGithub } from 'react-icons/ai'
 
 function Project() {
@@ -134,6 +135,26 @@ function Project() {
                                 <a href="https://github.com/OloriAsabi/gbedu-app" target="_blank" rel="noreferrer"><AiOutlineGithub className="text-black git"/></a>   
                                 </div> 
                             </div>
+
+                            <div className="single-project col-sm-12">    
+                        <div><img src={image7} alt="pic"/></div>
+                        <div className="project-info">
+                            <h4>Form App</h4>
+                            <p>
+                            This is a React Form validation on how to handle and validate Raect form inputs using useState, useRef and FormData
+                            </p>
+                            <div className="project-list">
+                            <ul>
+                                <li>CSS</li>
+                                <li>React.js</li>
+                                <li>Form inputs using useState, useRef and FormData</li>
+                            </ul>
+                            </div>
+                                <p><a href="https://oloriasabi.github.io/form-app/" target="_blank" rel="noreferrer" className="data">Visit Site</a></p> 
+                                <a href="https://github.com/OloriAsabi/form-app" target="_blank" rel="noreferrer"><AiOutlineGithub className="text-black git"/></a>   
+                                </div> 
+                            </div>
+
 
                     </div>
                     </main>
