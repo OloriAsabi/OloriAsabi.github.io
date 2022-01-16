@@ -27,7 +27,7 @@ function Project() {
           <div className="typical">
             <Typical
             className="type"
-                steps={['UpComing Projects:', ' Andela Project using Angular', 800]}
+                steps={['UpComing Projects:', ' React and Redux Website', 800]}
                 loop={Infinity}
                 wrapper="h4"
             /> 
