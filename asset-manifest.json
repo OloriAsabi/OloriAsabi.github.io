@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.44d9bedd.chunk.css",
-    "main.js": "/static/js/main.2314a781.chunk.js",
-    "main.js.map": "/static/js/main.2314a781.chunk.js.map",
+    "main.js": "/static/js/main.5e6698b9.chunk.js",
+    "main.js.map": "/static/js/main.5e6698b9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.942bb620.js",
     "runtime-main.js.map": "/static/js/runtime-main.942bb620.js.map",
     "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
@@ -24,13 +24,13 @@
     "static/media/GbeduApp.a71d5a7f.jpg": "/static/media/GbeduApp.a71d5a7f.jpg",
     "static/media/Olori-logo.0838a674.png": "/static/media/Olori-logo.0838a674.png",
     "static/media/index.css": "/static/media/OloriSketch.6c353320.png",
-    "static/media/react-form-app.cbdc838f.png": "/static/media/react-form-app.cbdc838f.png"
+    "static/media/react-form-app.3d00386d.png": "/static/media/react-form-app.3d00386d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.942bb620.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.1ce4a4ed.chunk.js",
     "static/css/main.44d9bedd.chunk.css",
-    "static/js/main.2314a781.chunk.js"
+    "static/js/main.5e6698b9.chunk.js"
   ]
 }
