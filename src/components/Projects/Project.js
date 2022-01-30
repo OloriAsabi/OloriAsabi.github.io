@@ -7,7 +7,7 @@ import "./Project.css";
 
 function Project() {
     const [index, setIndex] = useState(0);
-    const {id, img, text, info, tech, linkWeb, linkGit } = projectData[index];
+    const {id, img, text, info, tech, href, url } = projectData[index];
     const checkNumber = (number) => {
         if (number > projectData.length - 1) {
           return 0;
@@ -65,8 +65,8 @@ function Project() {
                             <span className="project-span">Skills: </span> 
                             <div className="project-list">{tech}</div>
                             <div className="project-icon">
-                                <p><a href={linkWeb} target="_blank" rel="noreferrer" className="data">Visit Site</a></p> 
-                              <a href={linkGit} target="_blank" rel="noreferrer"><AiOutlineGithub className="git"></AiOutlineGithub></a>   
+                                <p><a href={href} target="_blank" rel="noreferrer" className="data">Visit Site</a></p> 
+                              <a href={url} target="_blank" className="git" rel="noreferrer"><AiOutlineGithub /></a>   
                                </div> 
                                </div>
                           </div>

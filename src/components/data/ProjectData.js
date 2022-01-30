@@ -6,8 +6,8 @@ export const projectData = [
     text: "Ashabi's Pie App",
     info: "A pastry website", 
     tech: 'HTML  Bootstrap & JavaScript',
-    linkWeb: "https://oloriasabi.github.io/Ashabi-s-Pie-Shop/",
-    linkGit: "https://github.com/OloriAsabi/Ashabi-s-Pie-Shop",
+    href: "https://oloriasabi.github.io/Ashabi-s-Pie-Shop/",
+    url: "https://github.com/OloriAsabi/Ashabi-s-Pie-Shop",
 },
 {
     id: 2,
@@ -15,8 +15,8 @@ export const projectData = [
     text: "Cocktail Website",
     info: "A website built to showcase various deligihtful cocktails and API integration in React JS to fetch data", 
     tech: 'CSS & React.js',
-    linkWeb: "https://oloriasabi.github.io/cocktail-app/",
-    linkGit: "https://github.com/OloriAsabi/cocktail-app",
+    href: "https://oloriasabi.github.io/cocktail-app/",
+    url: "https://github.com/OloriAsabi/cocktail-app",
 },
 {
     id: 3,
@@ -24,8 +24,8 @@ export const projectData = [
     text: "Dashboard Website",
     info: "  A website built to showcase a dashboard of random Data", 
     tech: 'CSS & Angular',
-    linkWeb: "https://oloriasabi.github.io/Dashboard-app/",
-    linkGit: "https://github.com/OloriAsabi/Dashboard-app",
+    href: "https://oloriasabi.github.io/Dashboard-app/",
+    url: "https://github.com/OloriAsabi/Dashboard-app",
 },
 {
     id: 4,
@@ -33,8 +33,8 @@ export const projectData = [
     text: "E-commerce Website",
     info: "A UI design built to display an E-commerce website ", 
     tech: 'CSS/Styled components & React.js',
-    linkWeb: "https://oloriasabi.github.io/e-commerce-app/",
-    linkGit: "https://github.com/OloriAsabi/e-commerce-app",
+    href: "https://oloriasabi.github.io/e-commerce-app/",
+    url: "https://github.com/OloriAsabi/e-commerce-app",
 },
 {
     id: 5,
@@ -42,8 +42,8 @@ export const projectData = [
     text: "GbeduApp",
     info: "GbeduApp used to search for your favorite music using Spotify API", 
     tech: 'CSS/Bootstrap & Angular & API using Spotify API',
-    linkWeb: "https://oloriasabi.github.io/gbedu-app/",
-    linkGit: "https://github.com/OloriAsabi/gbedu-app",
+    href: "https://oloriasabi.github.io/gbedu-app/",
+    url: "https://github.com/OloriAsabi/gbedu-app",
 },
 {
     id: 6,
@@ -51,8 +51,8 @@ export const projectData = [
     text: "Form App",
     info: "This is a React Form validation on how to handle and validate Raect form inputs using useState, useRef and FormData", 
     tech: 'CSS & React.js & Form inputs using useState, useRef and FormData',
-    linkWeb: "https://oloriasabi.github.io/form-app/",
-    linkGit: "https://github.com/OloriAsabi/form-app",
+    href: "https://oloriasabi.github.io/form-app/",
+    url: "https://github.com/OloriAsabi/form-app",
 },
 {
     id: 7,
@@ -60,8 +60,8 @@ export const projectData = [
     text: "Travel Wella App",
     info: "A travel guide app used to search for hotels, restuarants and attractions around you using your Geolocation and Google Maps to navigate.", 
     tech: 'Material UI, React.js, Google Maps API,  Rapid APIs, Geolocation',
-    linkWeb: "https://oloriasabi.github.io/travel-wella-app/",
-    linkGit: "https://github.com/OloriAsabi/travel-wella-app",
+    href: "https://oloriasabi.github.io/travel-wella-app/",
+    url: "https://github.com/OloriAsabi/travel-wella-app",
 }
 
 ]
