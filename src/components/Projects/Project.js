@@ -50,7 +50,7 @@ function Project() {
           <div className="typical">
             <Typical
             className="type"
-                steps={['UpComing Projects:', ' React, Redux Website & Material UI', 1000]}
+                steps={['UpComing Projects:', ' React, Redux Website & Material UI', 500]}
                 loop={Infinity}
                 wrapper="h4"
             /> 
