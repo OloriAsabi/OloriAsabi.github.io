@@ -272,7 +272,6 @@ article .text{
   letter-spacing: 2px;
   line-height: 30px;
   margin: auto;
-  margin-top: 2rem;
   justify-content: center;
   align-items: center;
   font-weight: bold;
@@ -318,9 +317,6 @@ article .text{
 
 
 /* Projects*/
-
-
-
 
 .data{
   background: var(--clr-white);
@@ -369,7 +365,6 @@ margin-right: auto;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .card{
   padding: 40px;
