@@ -1,7 +1,6 @@
 .home {
     display: grid;
     place-items: center;
-    min-height: 100vh;
   }
   
   .home__data {
