@@ -1,2 +1,1 @@
 # olori-asabi-personal-website
-
