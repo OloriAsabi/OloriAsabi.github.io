@@ -7,7 +7,7 @@ import "./Navbar.css";
 export default function Navbar () {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <nav className="app__navbar">
+    <nav className="app__navbar bg-black">
       <div className="app__navbar-logo">
        <a href="/"><img src={logo} alt="app__logo" /></a>
       </div>
