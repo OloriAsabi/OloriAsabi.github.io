@@ -73,8 +73,8 @@
 }
 .random-btn {
   margin-top: 0.5rem;
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   padding: 0.25rem 0.5rem;
   text-transform: capitalize;
   border-radius:   0.25rem;
@@ -83,6 +83,6 @@
   cursor: pointer;
 }
 .random-btn:hover {
-  background:black;
-  color: #ffffff;
+  background:#ffffff;
+  color:black ;
 }
