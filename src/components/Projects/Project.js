@@ -66,7 +66,7 @@ function Project() {
                             <div className="project-list">{tech}</div>
                             <div className="project-icon">
                                 <p><a href={linkWeb} target="_blank" rel="noreferrer" className="data">Visit Site</a></p> 
-                                <AiOutlineGithub className="git"><a href={linkGit} target="_blank" rel="noreferrer"></a></AiOutlineGithub>   
+                              <a href={linkGit} target="_blank" rel="noreferrer"><AiOutlineGithub className="git"></AiOutlineGithub></a>   
                                </div> 
                                </div>
                           </div>
