@@ -1,7 +1,7 @@
 import React,  { useState }  from 'react';
 import Typical from 'react-typical'
 import { projectData } from "../data/ProjectData";
-import { FaChevronLeft, FaChevronRight, FaQuoteRight } from 'react-icons/fa';
+import { FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { AiOutlineGithub } from 'react-icons/ai';
 import "./Project.css";
 
