@@ -1,0 +1,100 @@
+.footer {
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    padding: 2rem 0;
+  }
+  
+  .footer__title {
+    font-size: 2rem;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .footer__social {
+    margin-bottom: 5px;
+    display: block;
+  }
+
+  .footer__icon li{ 
+ display: inline-block;
+ margin: 0px 22px 0px 0px;
+  }
+  .footer__icon a{
+    font-size: 1.5rem;
+    margin: 00.5rem;   
+     color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .footer__copy {
+    font-size:1rem;
+    color: #fff;
+  }
+  .footer__icon a:hover {
+color: rgb(194, 6, 6);
+  }
+
+  .app__newsletter {
+    padding: 2rem 4rem;
+}
+
+.app__newsletter-heading {
+    text-align: center;
+}
+
+.app__newsletter-input {
+    flex-direction: row;
+    margin-top: 3rem;
+}
+
+.app__newsletter-input input {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: black;
+    margin-bottom: 2rem;
+    padding: 0.75rem 1rem;
+    background: white; 
+}
+
+.app__newsletter-input button {
+    font-size: 1.3rem;
+    background-color: #fff;
+    color: #000;
+    border-radius: 0.5rem;
+    padding: 5px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 2000px) {
+    .app__newsletter-input input {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .app__newsletter-input {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .app__newsletter-input input {
+        margin: 0 0 2rem 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__newsletter {
+        padding: 2rem 0;
+        border: none;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .app__newsletter-heading h1 {
+        font-size: 32px;
+        line-height: 50px;
+    }
+}

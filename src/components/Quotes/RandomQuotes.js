@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import QuoteAndAuthor from './Quotes';
-import quotes from './QuotesDB'
+import quotes from '../data/QuotesDB'
 
 const generateRandomQuote = (max) => 
     Math.round(Math.random() * ((quotes.length-1) - 0) + 0);

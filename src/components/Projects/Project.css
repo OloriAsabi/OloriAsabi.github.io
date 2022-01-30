@@ -1,0 +1,88 @@
+.title h2{
+    padding: 3.5rem;
+}
+
+.project-icon {
+    display: flex ;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .project{
+  padding: 1.5rem 2rem;
+  transition: all 0.3s linear;
+  text-align: center;
+  min-height: 100vh;
+  }
+  .project-img{
+      width: auto;
+      height: auto;
+      border: 3px solid  rgb(201, 198, 198);
+      border-radius: 0.5rem;
+  }
+
+  .project-item{  display: grid;
+        place-items: center;
+        justify-content: center;
+        align-items: center;
+
+  }
+  .project-info{
+      color: #ffffff;
+      text-align: center;
+      letter-spacing: 3px;
+  }
+  .project-info h4{
+      font-size: 2.5rem;
+  }
+  .project-info p{
+      color: #fff;
+      line-height: 30px;
+      font-weight: 600;
+  }
+
+  .project-list{
+    line-height: 30px;
+    background-color: #ffffff;
+    color: #000;
+   font-size: 1.5rem;
+   border-radius: 0.5rem;   
+      padding: 0.5rem;
+      margin: 10px;
+      margin-bottom: 20px;
+  }
+  .project-span{
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #ffffff;
+      border-radius: 0.5rem;
+  }
+  .prev-btn,
+.next-btn {
+  color: rgb(194, 6, 6);
+  font-size: 1.25rem;
+  background: transparent;
+  border-color: transparent;
+  margin: 0 0.5rem;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.prev-btn:hover,
+.next-btn:hover {
+  color: rgb(224, 22, 22);
+}
+.random-btn {
+  margin-top: 0.5rem;
+  background: white;
+  color: black;
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+  border-radius:   0.25rem;
+  transition: all 0.3s linear;
+  border-color: transparent;
+  cursor: pointer;
+}
+.random-btn:hover {
+  background:black;
+  color: #ffffff;
+}

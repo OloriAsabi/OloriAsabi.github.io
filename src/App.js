@@ -1,33 +1,25 @@
 import React from 'react';
-import { BrowserRouter as Router,
-  Routes,
-  Route,
- } from "react-router-dom";
+import Home from './components/Home/Home';
+import About from "./components/About/About";
+import Project from "./components/Projects/Project";
+import Skills  from "./components/Skills/MySkills";
+import Contact from "./components/Contact/Contact";
 
-
-import Home from './components/Home';
-import About from "./components/About";
-import Project from "./components/Project";
-import Skills  from "./components/MySkills";
-import Contact from "./components/Contact";
-
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return(
-    <Router>
+      <div>
       <Navbar/>
-      <Routes>
-        <Route path='/' exact element={<Home/>} />  
-        <Route path='/about' element={<About/>} />
-        <Route path='/project' element={<Project/>} />
-        <Route path='/skills' element={<Skills/>} />
-        <Route path='/contact' element={<Contact/>} />
-        <Route>404 Not Found!</Route>
-        </Routes>
-
-      </Router>
-  
+      <Home/> 
+      <About/> 
+      <Skills/>
+      <Project/>
+      <Contact/>
+      <Footer/>
+      </div>
+       
   )
 }
 export default App;

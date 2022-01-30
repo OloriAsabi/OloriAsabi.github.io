@@ -322,7 +322,23 @@ export const quotes = [
         id:67,
         text: "Morality is to bring order into our consciousness",
         author: "Olorì Àṣàbí"
+    },
+    {
+        id:68,
+        text: "Listen for your tongue can make you deaf",
+        author: "Olorì Àṣàbí"
+    },
+    {
+        id:69,
+        text: "99% of our life are thoughts and emotions, and thoughts and emotions are not life",
+        author: "Olorì Àṣàbí"
+    },
+    {
+        id:70,
+        text: "The ability to manifest knowledge comes from repetition",
+        author: "Olorì Àṣàbí"
     }
+
 
 
 ]

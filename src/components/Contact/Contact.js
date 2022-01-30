@@ -1,19 +1,12 @@
 import React from 'react';
-import { social } from './data';
-import logo from "../Images/Olori-logo.png";
-//import { AiFillMail } from "react-icons/ai";
-
+import { social } from '../data/data';
 
 function Contact() {
     return(
-        <div className="content">
+        <div className="content bg-black">
           <div className="container section">
           <div className="row align-item-center">
-            <div className="about-logo col-sm-12 col-md-12 align-item-center">
-            <img src={logo} alt="About pic" style={{ width: "50%"}} className="m-4"/></div>
-
-            <div className="col-sm-12 col-md-12 mt-5">
-            <h1 className="mb-5">Let's get in touch!</h1>
+            <div className="about-logo col-sm-12 col-md-12 align-item-center"><h1 className="mb-5">Let's get in touch!</h1>
              <p className="mb-5 p-3">
              I'm currently open to working with diverse clientele; from individuals to organisations operating at different scales. I’m excited to bring my design experience to a range of projects: whether they be legacy products needing maintenance or freshly conceptualised ones.
 
@@ -27,7 +20,7 @@ function Contact() {
                 const { id, url, icon } = socialIcon;
                 return (
                   <li key={id}>
-                    <a href={url}>{icon}</a>
+                    <a href={url} target="_blank" rel="noreferrer">{icon}</a>
                   </li>
                       );
                     })}
