@@ -6,7 +6,7 @@ import './Skill.css'
 
 function Skills()  {
     return(
-        <section className="sec bg-black">
+        <section className="sec bg-black" id="skills">
           <div className="container skills">      
                   <h2 className="text-7 fw-600 text-center">My Skills</h2>
                   <div className="typical">

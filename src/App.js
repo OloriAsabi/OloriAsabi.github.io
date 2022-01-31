@@ -6,18 +6,20 @@ import Skills  from "./components/Skills/MySkills";
 import Contact from "./components/Contact/Contact";
 
 import Navbar from './components/Navbar/Navbar';
-import Footer from './components/Footer/Footer';
 
 function App() {
   return(
       <div className="bg-black">
       <Navbar/>
-      <Home/> 
+      <Home/>
+      <hr className="sec-line" /> 
       <About/> 
+      <hr className="sec-line" /> 
       <Skills/>
+      <hr className="sec-line" /> 
       <Project/>
+      <hr className="sec-line" /> 
       <Contact/>
-      <Footer/>
       </div>
        
   )

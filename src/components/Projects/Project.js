@@ -39,7 +39,7 @@ function Project() {
     
 
     return(
-                   <section className="bg-black">      
+                   <section className="bg-black" id="projects">      
                   <div className="section">
                  <div className="title">   
                  <h2>My personal Projects</h2>
@@ -59,7 +59,7 @@ function Project() {
                 <div key={id}>            
                         <div className='project-item' >  
                         <div ><img src={img} className="project-img" alt="pic"/></div>  
-                         <div className="project-info">
+                         <div className="project-info mt-5">
                             <h4>{text}</h4>
                             <p>{info}</p>
                             <span className="project-span">Skills: </span> 

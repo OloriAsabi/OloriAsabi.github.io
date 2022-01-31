@@ -1,13 +1,14 @@
 .title h2{
     padding: 3.5rem;
 }
-
 .project-icon {
     display: flex ;
     justify-content: space-between;
     margin-top: 10px;
   }
-
+.project-icon a:hover{
+  color:rgb(194, 6, 6) ;
+}
   .project{
   padding: 1.5rem 2rem;
   transition: all 0.3s linear;

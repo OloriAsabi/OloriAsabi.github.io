@@ -9,7 +9,7 @@ const [readMore, setReadMore] = useState(false);
 
 const linkName = readMore?'Read Less':'Read More'
     return(
-        <section className="sec bg-black" >
+        <section className="sec bg-black" id="about">
             <div className="container section">
                 <div className="row align-items-center">
                 

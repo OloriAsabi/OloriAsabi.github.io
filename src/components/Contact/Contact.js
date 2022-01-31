@@ -3,7 +3,7 @@ import { social } from '../data/data';
 
 function Contact() {
     return(
-        <div className="content bg-black">
+        <div className="content bg-black" id="contact">
           <div className="container section">
           <div className="row align-item-center">
             <div className="about-logo col-sm-12 col-md-12 align-item-center"><h1 className="mb-5">Let's get in touch!</h1>
@@ -29,7 +29,7 @@ function Contact() {
               </div>
             </div>
              </div>
-
+                      <div className="text-center text-white">&#169;2021 </div>
         </div>
     )
 }

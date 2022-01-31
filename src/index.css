@@ -295,6 +295,7 @@ article .text{
   justify-content: center;
   align-items: center;
   color: var(--clr-black);
+  min-height: 100vh;
 }
 
 .content h1 {
@@ -319,10 +320,8 @@ article .text{
 /* Projects*/
 
 .data{
-  background: var(--clr-white);
   padding: 0.25rem 0.5rem;
-  border-radius: var(--radius);
-  color: var(--clr-black);
+  color: var(--clr-white);
   text-transform: capitalize;
   letter-spacing: 1.5;
   font-style: italic;
@@ -402,6 +401,8 @@ margin-right: auto;
   width: 100px;
   height: 100px;
 }
-
+.sec-line{
+  border: 2px solid rgb(194, 6, 6);
+}
 
 

@@ -5,8 +5,8 @@ import "./Home.css";
 
 function Home () {
         return(
-          <main className="bg-black container1">
-            <section className="home ">
+          <main className="bg-black container1" id="home">
+            <section className="home">
               <div className="home__img">
               <img src={image} alt="home-bg" x="50" y="60"  className="home__blob-img"/>
             </div>
