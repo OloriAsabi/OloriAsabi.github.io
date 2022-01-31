@@ -16,7 +16,7 @@ function Home () {
                 <h3>
                    I'm <span className="home__title-color"> Olorì Àṣàbí </span>
                 </h3>
-               <p>Progressive  And Responsive Web Developer</p> 
+               <p>Responsive Web Developer</p> 
              </div>
              </div>
               <div className="home__social">
