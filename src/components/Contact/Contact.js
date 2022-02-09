@@ -1,5 +1,6 @@
 import React from 'react';
 import { social } from '../data/data';
+import "./Contact.css";
 
 function Contact() {
     return(
@@ -14,13 +15,13 @@ function Contact() {
              <br />
               I am available via any of the communication channels listed below. Do send a hello and let’s have a conversation.
              </p>
-            <div className="socials text-center">
+            <div className="socials text-center ">
                  <ul>
                       {social.map((socialIcon) => {
                 const { id, url, icon } = socialIcon;
                 return (
                   <li key={id}>
-                    <a href={url} target="_blank" rel="noreferrer">{icon}</a>
+                    <a href={url} target="_blank" rel="noopener noreferrer">{icon}</a>
                   </li>
                       );
                     })}

@@ -37,9 +37,9 @@ const linkName = readMore?'Read Less':'Read More'
             </article>
             
                 <div>{readMore && <Book /> }
-                <a className="article-btn" onClick={()=>setReadMore(!readMore)}> 
+                <button className="article-btn" onClick={()=>setReadMore(!readMore)}> 
                             <h2>{linkName}</h2>
-                            </a>
+                            </button>
                             </div>
               
             </div>

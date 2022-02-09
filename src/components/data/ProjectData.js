@@ -62,6 +62,15 @@ export const projectData = [
     tech: 'Material UI, React.js, Google Maps API,  Rapid APIs, Geolocation',
     href: "https://oloriasabi.github.io/travel-wella-app/",
     url: "https://github.com/OloriAsabi/travel-wella-app",
+},
+{
+    id: 8,
+    img:"https://raw.githubusercontent.com/OloriAsabi/book-images/main/src/PROGRAM/ProjectImages/screencapture-localhost-3000-2022-02-06-19_40_25.png",
+    text: "Material-UI",
+    info: "This a website created to upscale my skills in React and creating a User Interface using Material UI", 
+    tech: 'Material UI, React.js',
+    href: "https://oloriasabi.github.io/Material-UI/",
+    url: "https://github.com/OloriAsabi/Material-UI",
 }
 
 ]

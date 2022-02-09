@@ -320,11 +320,14 @@ article .text{
 /* Projects*/
 
 .data{
-  padding: 0.25rem 0.5rem;
-  color: var(--clr-white);
+  color: #fff ;
   text-transform: capitalize;
   letter-spacing: 1.5;
   font-style: italic;
+  font-size: 15px;
+}
+.data:hover{
+  color: rgb(221, 217, 217);
 }
 
 .typical{ 
@@ -355,8 +358,11 @@ margin-right: auto;
 
 
 .git{
-  color: #fff;
+color: #fff ;
   font-size: 35px;
+}
+.git:hover{
+ color: rgb(192, 185, 185);
 }
 
 /* Quote*/

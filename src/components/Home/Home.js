@@ -25,7 +25,7 @@ function Home () {
             const { id, url, icon } = socialIcon;
             return (
               <li key={id}>
-                <a href={url} className='home__social-icon' target="_blank" rel="noreferrer">{icon}</a>
+                <a href={url} className='home__social-icon' target="_blank" rel="noopener noreferrer">{icon}</a>
               </li>
             );
           })}

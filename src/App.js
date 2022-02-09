@@ -1,7 +1,7 @@
 import React from 'react';
 import Home from './components/Home/Home';
 import About from "./components/About/About";
-import Project from "./components/Projects/Project";
+import { Project } from "./components/Projects/Project";
 import Skills  from "./components/Skills/MySkills";
 import Contact from "./components/Contact/Contact";
 

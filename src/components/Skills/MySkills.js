@@ -1,4 +1,4 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from "react";
 import Typical from 'react-typical';
 import CV from "../../Files/Ashabi_Lateefat_Oduntan_most recent.pdf";
 import './Skill.css'
