@@ -15,9 +15,7 @@ const Book = () => {
             return (
                 <div>
                         <li key={id}>{books}
-                        </li>
-
-           
+                        </li>           
                         </div>
                     )
                 })}

@@ -76,7 +76,7 @@ export const projectData = [
     id: 9,
     img:"https://raw.githubusercontent.com/OloriAsabi/book-images/main/src/PROGRAM/ProjectImages/screencapture-localhost-3000-2022-02-13-18_32_05.png",
     text: "Restaurant App",
-    info: "I built a Modern UI/UX Restaurant Landing Page Website with React Functional components and their reusability , eact file and folder structure, Fundamental CSS properties such as flex & grid CSS BEM Model, From soft and pleasant animations to complex gradients Perfectly placed media queries for satisfactory responsiveness covering almost all devices deployed on Github pages", 
+    info: "I built a Modern UI/UX Restaurant Landing Page Website with React Functional components and their reusability , each file and folder structure, Fundamental CSS properties such as flex & grid CSS BEM Model, From soft and pleasant animations to complex gradients Perfectly placed media queries for satisfactory responsiveness covering almost all devices deployed on Github pages", 
     tech: 'React.js, CSS',
     href: "https://oloriasabi.github.io//Restaurant-app/",
     url: "https://github.com/OloriAsabi/Restaurant-app",

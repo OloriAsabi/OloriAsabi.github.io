@@ -1,29 +1,33 @@
 
 :root {
-    --color-primary: #f6aca2;
-    --color-secondary: #f49b90;
-    --color-tertiary: #f28b7d;
-    --color-quaternary: #f07a6a;
-    --color-quinary: #ee6352;
+    --color-primary: #9c8e8c;
+    --color-secondary: #9b8e8b;
+    --color-tertiary: #7c7675;
+    --color-quaternary: #837370;
+    --color-quinary: #292626;
     }
-
+.flex_center{
+  display: flex;
+  background-color: transparent;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.article-btn{
+  background-color: transparent;
+  border: none;
+}
 
 .article-btn h2 {
-    text-align: center;
-    color: rgb(185, 48, 48);
-    width: 200px;
-    margin-right: auto;
-    margin-left: auto;
+    color: rgb(240, 224, 224);
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 12px;
     text-shadow: 3px 3px 0 var(--color-secondary), 6px 6px 0 var(--color-tertiary),
     9px 9px var(--color-quaternary), 12px 12px 0 var(--color-quinary);
      font-weight: 400;
         text-transform: uppercase;
         font-size: calc(1rem + 5vw);
-        background-color: rgb(41, 36, 36);
-        background-clip: text;
         animation: shadows 1.2s ease-in infinite, move 1.2s ease-in infinite;
         letter-spacing: 0.4rem;
 }

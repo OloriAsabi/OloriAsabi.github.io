@@ -36,7 +36,7 @@ const linkName = readMore?'Read Less':'Read More'
                     </p>
             </article>
             
-                <div>{readMore && <Book /> }
+                <div className='flex_center'>{readMore && <Book /> }
                 <button className="article-btn" onClick={()=>setReadMore(!readMore)}> 
                             <h2>{linkName}</h2>
                             </button>
