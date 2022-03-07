@@ -4,37 +4,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.12.3",
-    "@material-ui/styles": "^4.11.4",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "a11y-react-emoji": "^1.1.3",
-    "bootstrap": "^5.1.1",
-    "eslint-plugin-react-hooks": "^4.3.0",
-    "hamburger-react": "^2.4.1",
+    "@sanity/cli": "^2.27.3",
+    "@sanity/client": "^3.2.0",
+    "@sanity/image-url": "^1.0.1",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
+    "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^6.2.8",
     "react": "^17.0.2",
-    "react-bootstrap": "^2.0.0",
     "react-dom": "^17.0.2",
-    "react-icons": "^4.2.0",
-    "react-router-dom": "^6.0.0-beta.8",
-    "react-scripts": "^3.0.1",
-    "react-scroll": "^1.8.4",
-    "react-typical": "^0.1.3",
-    "styled-components": "^5.3.1",
-    "web-vitals": "^0.2.4",
-    "workbox-background-sync": "^5.1.3",
-    "workbox-broadcast-update": "^5.1.3",
-    "workbox-cacheable-response": "^5.1.3",
-    "workbox-core": "^5.1.3",
-    "workbox-expiration": "^5.1.3",
-    "workbox-google-analytics": "^5.1.3",
-    "workbox-navigation-preload": "^5.1.3",
-    "workbox-precaching": "^5.1.3",
-    "workbox-range-requests": "^5.1.3",
-    "workbox-routing": "^5.1.3",
-    "workbox-strategies": "^5.1.3",
-    "workbox-streams": "^5.1.3"
+    "react-icons": "^4.3.1",
+    "react-scripts": "5.0.0",
+    "react-tooltip": "^4.2.21",
+    "sanity": "^2.20.0",
+    "sass": "^1.49.9",
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "postbuild": "echo oloriasabi.com > CNAME",
@@ -64,6 +48,8 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.2.3"
+    "gh-pages": "^3.2.3",
+    "node-sass": "^7.0.1",
+    "sass-loader": "^12.6.0"
   }
 }
