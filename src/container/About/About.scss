@@ -1,0 +1,48 @@
+
+.app__about {
+    width: 100%;
+  }
+  .app__profiles{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .app__profile-item h2{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+  }
+
+.about_text{
+    font-size: 2rem;
+}
+.flex_center{
+  display: flex;
+  background-color: transparent;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.article-btn{
+  margin-top: 40px;
+  background-color: transparent;
+  border: 2px solid black;  
+  border-radius: 10px;
+}
+
+.article-btn h2 {
+    text-decoration: none;
+
+    padding: 12px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.article, .article p{
+    color: #fff;
+}
