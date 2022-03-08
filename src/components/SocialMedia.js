@@ -6,7 +6,7 @@ import { AiFillMail } from "react-icons/ai";
   return (
     <div className="app__social">
     <div>
-        <a href='mailto:developerqueenlatifa@gmail.com'>
+        <a href='mailto:developeroloriasabi@gmail.com'>
       <AiFillMail /></a>
     </div>
     <div>
