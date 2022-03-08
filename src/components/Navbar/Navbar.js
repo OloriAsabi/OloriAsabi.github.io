@@ -10,7 +10,7 @@ import './Navbar.scss'
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <img src={logo} alt="olori logo"/>
+       <a href='/'><img src={logo} alt="olori logo"/></a>
       </div>
       <ul className="app__navbar-links">
       {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
