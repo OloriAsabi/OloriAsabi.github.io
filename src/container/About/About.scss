@@ -13,8 +13,8 @@
     text-align: justify;
     justify-content: center;
     align-items: center;
-    letter-spacing: 3px;
-    line-height: 2;
+    letter-spacing: 2px;
+    line-height: 1.5;
   }
 
 .about_text{
@@ -28,15 +28,23 @@
   align-items: center;
 }
 .article-btn{
-  margin-top: 40px;
-  background-color: transparent;
-  border: 2px solid black;  
+  padding: 1rem 2rem;
   border-radius: 10px;
-}
+  border: none;
+  background-color: var(--secondary-color);
 
-.article-btn h2 {
-    text-decoration: none;
-    padding: 12px;
+  font-weight: 500;
+  color: var(--white-color);
+  outline: none;
+  margin: 2rem 0 0 0;
+  font-family: var(--font-base);
+
+  transition: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+  cursor: pointer;
+
+  &:hover {
+    background-color: #2430af;
+  }
 }
 
 

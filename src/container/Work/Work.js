@@ -1,25 +1,35 @@
 import React,  { useState, useEffect } from 'react'
-import { AiFillEye, AiFillGithub } from 'react-icons/ai';
+import { AiFillGithub,  } from 'react-icons/ai';
+import { FaLink } from 'react-icons/fa'
 import { motion } from 'framer-motion';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
 import './Work.scss';
+import { PersonalProjects } from './PersonalProjects';
 
 const Work = () => {
-  const [works, setWorks] = useState([]);
+  const [works, setWorks] = useState([]); 
+ const [expanded, setExpanded] = useState(false)
+  // eslint-disable-next-line no-undef
   const [filterWork, setFilterWork] = useState([]);
   const [activeFilter, setActiveFilter] = useState('All');
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });
 
   useEffect(() => {
     const query = '*[_type == "works"]';
+    const secondQuery = '*[_type == "personalProjects"]'
 
     client.fetch(query).then((data) => {
       setWorks(data);
-      setFilterWork(data);
+      setFilterWork(expanded ? data : data.slice(0, 5));
     });
-  }, []);
+
+    client.fetch(secondQuery).then((data) => {
+      setWorks(data);
+    });
+
+  }, [expanded]);
 
   const handleWorkFilter = (item) => {
     setActiveFilter(item);
@@ -51,11 +61,13 @@ const Work = () => {
         ))}
       </div>
 
+     
       <motion.div
         animate={animateCard}
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
-      >
+      > 
+      <h6 className="project-text">My Personal Projects</h6>
          {filterWork.map((work, index) => (
           <div className="app__work-item app__flex" key={index}>
             <div
@@ -78,33 +90,38 @@ const Work = () => {
               <p className="p-text" style={{ marginTop: 10 }}>{work.description}</p>
   
               <div className="app__work-tag app__flex">  
-              <a href={work.projectLink} target="_blank" className='icon' rel="noreferrer">
+              <a href={work.projectLink} target="_blank" title='Link' className='icon' rel="noreferrer">
               <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.90] }}
                     transition={{ duration: 0.25 }}
                     className="app__flex"
                   >
-                    <AiFillEye />
+                    <FaLink title='Link' />
                   </motion.div>
                 </a>
                 <p className="p-text">{work.tags[0]}</p>  
-                 <a href={work.codeLink} target="_blank" className='icon' rel="noreferrer">
+                 <a href={work.codeLink} target="_blank" title='Github Link' className='icon' rel="noreferrer">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.90] }}
                     transition={{ duration: 0.25 }}
                     className="app__flex"
                   >
-                    <AiFillGithub />
+                    <AiFillGithub title='GitHub Link'/>
                   </motion.div>
                 </a>
               </div>
             </div>
           </div>
         ))}
-
+        <button type="button" className='ShowMore-btn' onClick={() => setExpanded(!expanded)}>
+          {expanded ? 'Show Less' : 'Show More'} 
+        </button>
       </motion.div>
+
+     <hr className='break'/>
+   <PersonalProjects/>
     </div>
   )
 }

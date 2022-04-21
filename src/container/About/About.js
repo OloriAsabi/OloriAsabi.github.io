@@ -53,7 +53,7 @@ const linkName = readMore?'Read Less':'Read More'
                     className="app__flex"
                   > 
                   <button className="article-btn" onClick={()=>setReadMore(!readMore)}>
-                    <h2>{linkName}</h2>    
+                    {linkName}  
                       </button> 
                        </motion.div>
                       </div>
