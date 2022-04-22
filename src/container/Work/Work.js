@@ -47,7 +47,7 @@ const Work = () => {
   };
 
   return (
-    <div>
+    <div id='work'>
        <h2 className="head-text">My Creative <span>Portfolio</span></h2>
        <div className="app__work-filter">
         {['UI/UX','Bootstrap', 'Angular', 'React.js', 'All'].map((item, index) => (
@@ -61,13 +61,12 @@ const Work = () => {
         ))}
       </div>
 
-     
+      <h6 className="project-text">My Personal Projects</h6>
       <motion.div
         animate={animateCard}
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       > 
-      <h6 className="project-text">My Personal Projects</h6>
          {filterWork.map((work, index) => (
           <div className="app__work-item app__flex" key={index}>
             <div
@@ -115,10 +114,13 @@ const Work = () => {
             </div>
           </div>
         ))}
+     
+      </motion.div> 
+        <div className='app__flex'>
         <button type="button" className='ShowMore-btn' onClick={() => setExpanded(!expanded)}>
           {expanded ? 'Show Less' : 'Show More'} 
         </button>
-      </motion.div>
+        </div>
 
      <hr className='break'/>
    <PersonalProjects/>

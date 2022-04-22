@@ -22,7 +22,7 @@ const linkName = readMore?'Read Less':'Read More'
     })
   },[])
   return (
-    <div className='about'>
+    <div className='about' id='about'>
      <div>
         <Quotes />
      </div>

@@ -54,12 +54,12 @@ export const PersonalProjects = () => {
         ))}
       </div>
 
+      <h6 className="project-text pt"> Works and Freelances </h6>
       <motion.div
         animate={animateCard}
         transition={{ duration: 0.5, delayChildren: 0.5 }}
         className="app__work-portfolio"
       > 
-            <h6 className="project-text pt"> Works and Freelances </h6>
          {filterPersonalProjects.map((work, index) => (
           <div className="app__work-item app__flex" key={index}>
             <div
@@ -118,10 +118,13 @@ export const PersonalProjects = () => {
             </div>
           </div>
         ))}
+       
+      </motion.div>
+      <div className='app__flex'>
         <button type="button" className='ShowMore-btn' onClick={() => setExpanded(!expanded)}>
           {expanded ? 'Show Less' : 'Show More'} 
         </button>
-      </motion.div>
+        </div>
     </div>
   )
 }

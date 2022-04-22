@@ -25,7 +25,7 @@ const Skills = () => {
   }, []);
 
   return (
-    <>
+    <div id='skills'>
       <h2 className="head-text">Skills & Experiences</h2>
 
       <div className="app__skills-container">
@@ -85,7 +85,7 @@ const Skills = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

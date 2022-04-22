@@ -29,7 +29,7 @@ const Testimonial = () => {
   }, []);
 
   return (
-    <>
+    <div id='testimonals'>
       <h2 className="head-text">Testimonials</h2>
 
       {testimonials.length && (
@@ -68,7 +68,7 @@ const Testimonial = () => {
           </motion.div>
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

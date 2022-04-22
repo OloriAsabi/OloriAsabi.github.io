@@ -71,9 +71,9 @@
     }
   }
 
-  .protext {
-    font-size: 0.75rem;
-    font-weight: 500;
+  .project-text {
+    font-size: 1.2rem;
+    font-weight: 800;
     text-align: center;
     color: var(--black-color);
     text-transform: capitalize;
@@ -91,16 +91,6 @@
     }
   }
   
-  .project-text {
-    font-size: 1rem;
-    text-align: left;
-    color: var(--gray-color);
-    line-height: 1.5;
-  
-    @media screen and (min-width: 2000px) {
-      font-size: 1.75rem;
-    }
-  }
   
   .bold-text {
     font-size: 1rem;
@@ -197,7 +187,7 @@
     }
   }
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 600px) {
     .app__navigation,
     .app__social {
       display: none;
