@@ -120,11 +120,11 @@ export const PersonalProjects = () => {
         ))}
        
       </motion.div>
-      <div className='app__flex'>
+      {/* <div className='app__flex'>
         <button type="button" className='ShowMore-btn' onClick={() => setExpanded(!expanded)}>
           {expanded ? 'Show Less' : 'Show More'} 
         </button>
-        </div>
+        </div> */}
     </div>
   )
 }
