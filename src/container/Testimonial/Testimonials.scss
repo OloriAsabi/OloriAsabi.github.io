@@ -5,11 +5,11 @@
   }
   
   .app__testimonial-item {
-    // width: 60%;
+    width: 60%;
     min-height: 320px;
     background-color: var(--white-color);
     display: flex;
-    // flex-direction: row;
+    flex-direction: row;
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);

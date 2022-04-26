@@ -4,9 +4,13 @@ import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
 
 import './Navbar.scss'
+// import { VStack } from "@chakra-ui/react";
+// import { ThemeModeToggler } from '..';
+
 
  const Navbar = () => {
   const [toggle, setToggle] = useState(false);
+
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
@@ -21,6 +25,9 @@ import './Navbar.scss'
         ))}
       </ul>
 
+      {/* <VStack h="10vh" justifyContent="center">
+      <ThemeModeToggler />
+    </VStack> */}
       <div className="app__navbar-menu">
         <HiMenuAlt4 onClick={() => setToggle(true)} />
 
