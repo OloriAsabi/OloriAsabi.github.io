@@ -43,7 +43,7 @@ export const PersonalProjects = () => {
   return (
       <div>
         <div className="app__work-filter">
-        {['UI/UX','Bootstrap', 'CSS', 'Angular', 'React.js', 'Next.js', 'All'].map((item, index) => (
+        {['UI/UX','Bootstrap', 'CSS', "Material UI", 'Angular', 'React.js', "React Native",'Next.js', 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
