@@ -19,10 +19,10 @@ import './Navbar.scss'
       <ul className="app__navbar-links">
       {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
-            <div />
             <a href={`#${item}`}>{item}</a>
           </li>
         ))}
+      <li><a href='https://medium.com/@developerqueenlatifa' target="_blank" rel="noreferrer">Blog</a></li>
       </ul>
 
       {/* <VStack h="10vh" justifyContent="center">
@@ -45,6 +45,7 @@ import './Navbar.scss'
                   </a>
                 </li>
               ))}
+              <li><a href='https://medium.com/@developerqueenlatifa' target="_blank" rel="noreferrer">Blog</a></li>
             </ul>
           </motion.div>
         )}
