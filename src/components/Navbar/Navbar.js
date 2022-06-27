@@ -22,7 +22,7 @@ import './Navbar.scss'
             <a href={`#${item}`}>{item}</a>
           </li>
         ))}
-      <li><a href='https://medium.com/@developerqueenlatifa' target="_blank" rel="noreferrer">Blog</a></li>
+      <li><a href='https://dev.to/oloriasabi' target="_blank" rel="noreferrer">Blog</a></li>
       </ul>
 
       {/* <VStack h="10vh" justifyContent="center">
@@ -45,7 +45,7 @@ import './Navbar.scss'
                   </a>
                 </li>
               ))}
-              <li><a href='https://medium.com/@developerqueenlatifa' target="_blank" rel="noreferrer">Blog</a></li>
+              <li><a href='https://dev.to/oloriasabi' target="_blank" rel="noreferrer">Blog</a></li>
             </ul>
           </motion.div>
         )}
