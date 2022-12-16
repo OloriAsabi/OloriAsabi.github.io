@@ -135,7 +135,7 @@ const Contact = () => {
         </div>
       )}
       </div>
-      <div className='mt-10 p-5 text-center'>
+      {/* <div className='mt-10 p-5 text-center'>
         <h1 className='text-center uppercase font-bold mb-5'>KEEP IN TOUCH</h1>
         <p className='chat text-gray-500 mb-5 tex-xl text-center'>Do not hesitate to contact me with any questions. Feel free to drop in for a chat on whatsapp</p>
                 <a href='https://api.whatsapp.com/send?phone=2348175509185'>
@@ -143,7 +143,7 @@ const Contact = () => {
       <BsWhatsapp  fontSize={28} />
         </button>
         </a>
-    </div>
+    </div> */}
 
     <div className=" text-center flex justify-evenly p-5 pb-32 cursor-pointer items-center">
     <div>

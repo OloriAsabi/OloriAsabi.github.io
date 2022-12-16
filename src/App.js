@@ -30,7 +30,7 @@ function App() {
       )
       :
       (
-       <div className="bg-white text-black dark:bg-black overflow-y-scroll h-screen overscroll-contain dark:text-white">
+       <div className="bg-white max-w-full text-black dark:bg-black overflow-y-scroll h-screen overscroll-contain dark:text-white">
         <div className="">
           <nav className="w-screen bg-white shadow h-20 flex md:justify-center dark:text-white dark:bg-black justify-between items-center p-8 shadow-black">
           <div className="md:flex-[1.5] flex-start justify-center items-center">
