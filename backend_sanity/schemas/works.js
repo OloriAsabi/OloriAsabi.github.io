@@ -20,6 +20,11 @@ export default {
         type: 'string',
       },
       {
+      name: 'figmaLink',
+      title: 'Figma Link',
+      type: 'string',
+      },
+      {
         name: 'codeLink',
         title: 'Code Link',
         type: 'string',

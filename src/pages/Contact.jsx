@@ -1,166 +1,121 @@
-import React, { useState } from 'react';
-import emailjs from '@emailjs/browser';
-import email from '../assests/email.png';
-import { BsWhatsapp } from 'react-icons/bs';
-import { FaGithubSquare, FaLinkedin, FaTwitter} from 'react-icons/fa';
+import React from "react";
+import Navbar from "../components/navbar";
 
 const Contact = () => {
-  const [formData, setFormData] = useState(
-    { 
-     name: '',
-     user_email: "",
-     message: ''
-     }
-    );
-  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
-
-  const handleChangeInput = (e) => {
-    setFormData({ ...formData,  [e.target.name]: e.target.value});
-  };
-
-  // console.log(formData);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(e);
-    setLoading(true);
-    emailjs.send(
-      "service_f7pyqhc",
-      "template_j6q5j28",
-      formData,
-      "s7CVxZ2hSWavjmlJG"
-    )
-    .then(response => {
-      console.log('SUCCESS!', response);
-      setLoading(false);
-      setIsFormSubmitted('SUCCESS');
-    })
-  }
-
   return (
-    <div className='bg-white overflow-y-scroll overscroll-contain w-screen h-screen mb-32 mt-32 text-black dark:text-white dark:bg-black'>      
-    <div className='container mx-auto'>
-      <div className="text-center">
-          <h1 className='p-5 font-bold md:text-3xl lg:text-3xl sm:text-xl'>Contact Us</h1>
-          <p className='font-bold p-5'>
-          Are you ready to start your next project, contact us below.
+    <div className="container">
+      <Navbar />
+      <div className="contact" data-aos="fade-up">
+        <div className="contact-container" id="contact">
+          <h1>Get In Touch!</h1>
+          <p className="text">
+            Are you in need of a Frontend engineer? and I trusted technical company that can help you bring your dream business, ideas to the web or mobile devices,
+             I'm open to freelance/contract
+            jobs, and full-time roles as well. Lets get in touch!
           </p>
-      </div>
-
-        <div className="flex space-evenly justify-center mt-8 mb-4 text-center">
-        <div className="w-full ml-auto mr-auto items-center p-px cursor-pointer m-px">
-          <img src={email} className='w-28 h-28 m-px ml-auto mr-auto' alt="email" />
-          <a href="mailto:developeroloriasabi@gmail.com" className="p-3 font-bold">developeroloriasabi@gmail.com</a>
+          <div className="btn">
+            <a href="mailto:developeroloriasabi@gmail.com">Send an email</a>
+            </div>
+          <div className="socials">
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://github.com/OloriAsabi"
+                className="icon"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-github"
+                >
+                  <title>GitHub</title>
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                Ashabi L Oduntan
+              </a>
+              {/* <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.instagram.com/ore_adebiyi/"
+                className="icon"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-instagram"
+                >
+                  <title>Instagram</title>
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                  <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                  <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                </svg>
+                ore_adebiyi
+              </a> */}
+          
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.twitter.com/olorii_ashabi"
+                className="icon"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-twitter"
+                >
+                  <title>Twitter</title>
+                  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+                </svg>
+                Òlórí Àṣàbí Ifáníwurá
+              </a>
+              <a
+                target="_blank"
+                rel="noreferrer"
+                href="https://www.linkedin.com/in/ashabilateefatoduntan/"
+                className="icon"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="feather feather-linkedin"
+                >
+                  <title>LinkedIn</title>
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                Ashabi Lateefat Oduntan
+              </a>
+   
+          </div>
         </div>
       </div>
-      {!isFormSubmitted ? (
-        <form onSubmit={handleSubmit} className=" text-center flex justify-center items-center p-5 flex-col w-full">
-          <div className="m-15 border-black">
-            <input 
-            className="p-3 
-            m-5 
-            w-80
-            dark:bg-black 
-            dark:text-white 
-            h-18 
-            hover:scale-x-105 
-            border
-            rounded
-            border-black 
-            dark:border-white
-            flex-column
-            transition 
-            delay-3 
-            ease-in" 
-            type="text" 
-            placeholder="Your Name" 
-            name="name"
-            value={formData.name} 
-            onChange={handleChangeInput} />
-          </div>
-          <div className="">
-            <input 
-            className="p-3 
-            m-5 
-            w-80
-            dark:bg-black 
-            dark:text-white 
-            flex-column 
-            h-18 
-            border-black 
-            border
-            rounded
-            dark:border-white 
-            hover:scale-x-105 
-            transition 
-            delay-3 
-            ease-in" 
-            type="email" 
-            placeholder="Your Email" 
-            name="user_email"
-            value={formData.user_email}
-            onChange={handleChangeInput}
-             />
-          </div>
-          <div>
-            <textarea
-              className="p-3 
-              m-5 
-              w-80
-              h-32 
-              dark:bg-black 
-              border
-              rounded
-              border-black 
-              dark:text-white 
-              hover:scale-x-105 
-              dark:border-white 
-              transition 
-              delay-3 
-              ease-in"
-              placeholder="Your Message"
-              value={formData.message}
-              name="message"
-              onChange={handleChangeInput}
-            />
-          </div>
-            <button type="button" className="text-center w-32 text-center bg-black text-white dark:text-black dark:bg-white rounded p-2 mb-5 cursor-pointer hover:scale-x-105  font-medium" onClick={handleSubmit}>{!loading ? 'Send Message' : 'Sending...'}</button>
-          </form>
-         ) : (
-        <div>
-          <h3 className="text-center font-bold p-3">
-            Thank you for getting in touch!
-          </h3>
-        </div>
-      )}
-      </div>
-      {/* <div className='mt-10 p-5 text-center'>
-        <h1 className='text-center uppercase font-bold mb-5'>KEEP IN TOUCH</h1>
-        <p className='chat text-gray-500 mb-5 tex-xl text-center'>Do not hesitate to contact me with any questions. Feel free to drop in for a chat on whatsapp</p>
-                <a href='https://api.whatsapp.com/send?phone=2348175509185'>
-       <button className='bg-black text-white dark:text-black dark:bg-white text-center rounded-3xl p-3 cursor-pointer hover:scale-x-105 font-medium'>
-      <BsWhatsapp  fontSize={28} />
-        </button>
-        </a>
-    </div> */}
+    </div>
+  );
+};
 
-    <div className=" text-center flex justify-evenly p-5 pb-32 cursor-pointer items-center">
-    <div>
-        <a href='https://www.linkedin.com/in/ashabilateefatoduntan/'>
-      <FaLinkedin className='hover:scale-x-105 mb-32 ' fontSize={28}/></a>
-    </div>
-    <div>
-        <a href='https://github.com/OloriAsab'>
-        <FaGithubSquare className='hover:scale-x-105 mb-32' fontSize={28}/></a>
-    </div>
-    <div>
-        <a href='https://www.twitter.com/olorii_ashabi'>
-        <FaTwitter className='hover:scale-x-105 mb-32 ' fontSize={28}/></a>
-    </div>
-    </div>
-      </div>
-  )
-}
-
-export default Contact
+export default Contact;

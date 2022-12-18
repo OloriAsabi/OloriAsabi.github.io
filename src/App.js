@@ -1,99 +1,52 @@
-import React, { useEffect, useState } from "react";
-import { Loader, ThemeSettings } from "./components";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Blog, Contact, Portfolio, Home, Services, About } from "./pages";
-import logo from './assests/1.png'
+import React, { useEffect } from "react";
+import "./css/main.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import Home from "./pages/home";
+import MoreWorks from "./pages/more-works";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import About from "./pages/about";
+import Contact from "./pages/contact";
+import { GrMore } from 'react-icons/gr';
+import { BsBriefcase } from 'react-icons/bs';
+import { TbWriting } from 'react-icons/tb';
+import { MdOutlineConnectWithoutContact } from 'react-icons/md'
+import Blog from "./pages/blog";
 
-
-import "swiper/css";
-import "swiper/css/pagination";
-
-import { Pagination } from "swiper";
 
 function App() {
-  const [isLoading, setIsLoading] = useState(true);
-
-  const slideMenu = [ "Home", "About", "Services", "Portfolio", "Blog", "Contact"]
-
   useEffect(() => {
-    setTimeout(() => 
-        setIsLoading(false), 2000
-        );
-  })
+    Aos.init({ duration: 1000 });
+  }, []);
 
   return (
-    <div>
-    {isLoading
-    ?
-      (
-        <Loader/>
-      )
-      :
-      (
-       <div className="bg-white max-w-full text-black dark:bg-black overflow-y-scroll h-screen overscroll-contain dark:text-white">
-        <div className="">
-          <nav className="w-screen bg-white shadow h-20 flex md:justify-center dark:text-white dark:bg-black justify-between items-center p-8 shadow-black">
-          <div className="md:flex-[1.5] flex-start justify-center items-center">
-              <a href="/">
-              <img src={logo} alt="logo" className="w-22 h-12 object-cover dark:text-white dark:bg-white rounded-none cursor-pointer" />
-              </a>
-            </div>
-            <ThemeSettings  />
-          </nav>
-       </div>
-        <div>
-        <Swiper
-          direction={"horizontal"}
-          slidesPerView={1}
-          spaceBetween={10}
-          mousewheel={true}
-          pagination={{
-            clickable: true,
-            el: '.swiper-pagination',
-            renderBullet: function (index, className) {
-              return '<span class="' + className + '">' + (slideMenu[index]) + '</span>';
-            },
-          }}
-          modules={[Pagination]}
-          className="mySwiper bg-white text-black w-screen dark:text-white dark:bg-black"
-          >
-          <SwiperSlide><Home/></SwiperSlide>
-          <SwiperSlide><About/></SwiperSlide>
-          <SwiperSlide><Services/></SwiperSlide>
-          <SwiperSlide><Portfolio/></SwiperSlide>
-          <SwiperSlide><Blog/></SwiperSlide>
-          <SwiperSlide><Contact/></SwiperSlide>    
-          </Swiper>
-          </div>    
-          <div 
-          className="
-          swiper-pagination 
-          dark:bg-black 
-          bg-white
-          text-black
-          dark:text-white
-          h-32
-          p-3 
-          nav-list 
-          font-bold 
-          flex
-          justify-evenly 
-          text-center 
-          text-xl
-          items-center"> 
-          {
-            slideMenu.map((el,index) => {
-                return(
-                  <li className="" key={index}>{el}</li>
-                )
-            }
-            )
-          }
-          </div>
+    <Router>
+      <div className="App">
+        <Routes>
+          <Route path="/" exact element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<MoreWorks />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <div className="side-nav" data-aos="fade-left">
+          <ul>
+            <Link to="/about">
+              <li className=""><GrMore fontSize={18}/> about</li>
+            </Link>
+            <Link to="/projects">
+              <li className=""><BsBriefcase fontSize={18}/> projects</li>
+            </Link>
+            <Link to="/blog">
+              <li className=""><TbWriting fontSize={18}/> blog</li>
+            </Link>
+            <Link to="/contact">
+              <li className=""><MdOutlineConnectWithoutContact fontSize={18}/> contact</li>
+            </Link>
+          </ul>
         </div>
-      )
-      }
       </div>
+    </Router>
   );
 }
 
