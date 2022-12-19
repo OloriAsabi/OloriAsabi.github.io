@@ -14,7 +14,7 @@ const MoreWorks = () => {
         const query = '*[_type == "works"]';
     
         client.fetch(query).then((data) => {
-            console.log(data);
+            // console.log(data);
           setWorks(data);
           setFilterWork(expanded ? data : data.slice(0, 5));
         });  
@@ -36,12 +36,12 @@ const MoreWorks = () => {
         <div>
             <Navbar />
             <h1 className="work-page-title">MY WORKS</h1>
-            <div className="text-center nav-filter items-center shadow-black w-full p-3 flex-wrap flex-row flex justify-center space-x-4 space-y-2">
+            <div className="text-center nav-filter items-center  shadow-black w-full p-3 flex-wrap flex-row flex justify-center space-x-4 space-y-2">
                 {['Angular', 'React.js', "React Native",'Next.js', 'All'].map((item, index) => (
                 <button
                     key={index}
                     onClick={() => handleWorkFilter(item)}
-                    className={`resume  ${activeFilter === item ? 'item-active' : ''}`}
+                    className={`resume btn-filter  ${activeFilter === item ? 'item-active' : ''}`}
                 >
                     {item}
                 </button>
@@ -51,8 +51,8 @@ const MoreWorks = () => {
         className="work-page"  data-aos="fade-up"
         > 
          {filterWork.map((work, index) => (
-            <a href={work.projectLink} target="_blank" rel="noreferrer" >
-                <div  className="work-page-container" key={index}>
+            <a href={work.projectLink} target="_blank" rel="noreferrer" key={index}>
+              <div  className="work-page-container" key={index}>
               <img src={urlFor(work.imgUrl)}  alt={work.name} />
               <div className="work-info">
               <div className="work-info-content">
