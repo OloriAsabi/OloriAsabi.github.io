@@ -37,7 +37,7 @@ const MoreWorks = () => {
             <Navbar />
             <h1 className="work-page-title">MY WORKS</h1>
             <div className="text-center nav-filter items-center  shadow-black w-full p-3 flex-wrap flex-row flex justify-center space-x-4 space-y-2">
-                {['Angular', 'React.js', "React Native",'Next.js', 'All'].map((item, index) => (
+                {['Angular', 'React.js', "WordPress",'Next.js', 'All'].map((item, index) => (
                 <button
                     key={index}
                     onClick={() => handleWorkFilter(item)}
