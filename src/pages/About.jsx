@@ -100,6 +100,10 @@ const About = () => {
                                 <img className="arrow" src={arrow} alt="icon"  />
                                 <p>Next.js</p>
                             </div>
+                            <div className="tech">
+                                <img className="arrow" src={arrow} alt="icon"  />
+                                <p>Wordpress</p>
+                            </div>
                         </div>
                         
                     </div>
