@@ -38,6 +38,18 @@ const Blog = () => {
     <p className='blog-btn'>Link</p>
     </a>
     </div>
+   <div className='blog-content'>
+     <h5 className=''>The Science Of Ògùn Jíjó in Ifá</h5>
+    <a href='https://medium.com/think-yoruba-first/the-science-of-ògún-jíjó-in-ifá-7de50fb932d3'>
+    <p className='blog-btn'>Link</p>
+    </a>
+    </div>
+    <div className='blog-content'>
+     <h5 className=''>The science in Ifa</h5>
+    <a href='https://medium.com/think-yoruba-first/the-science-in-ifa-4c0c41382bdb'>
+    <p className='blog-btn'>Link</p>
+    </a>
+    </div>
     </div>
         {/* <div>
      <a href='https://medium.com/@developerqueenlatifa'
