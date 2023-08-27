@@ -50,15 +50,48 @@ const Blog = () => {
     <p className='blog-btn'>Link</p>
     </a>
     </div>
+    <div className='blog-content'>
+     <h5 className=''>Form, Page Navigation using React-Router-Dom with Ionic-React, TypeScript, React-Hook-Form, React-Redux, and @reduxjs/toolkit!</h5>
+    <a href='https://dev.to/oloriasabi/form-page-navigation-using-react-router-dom-with-ionic-react-typescript-react-hook-form-react-redux-and-reduxjstoolkit-3ba4'>
+    <p className='blog-btn'>Link</p>
+    </a>
     </div>
-        {/* <div>
+    <div className='blog-content'>
+     <h5 className=''>The intimate relationship between Orí Bibọ and Orí</h5>
+    <a href='https://open.substack.com/pub/oloriasabi/p/the-intimate-relationship-between?r=1rp4x0&utm_campaign=post&utm_medium=web'>
+    <p className='blog-btn'>Link</p>
+    </a>
+    </div>
+    <div className='blog-content'>
+     <h5 className=''>JAGUN-JAGUN: Ancestry, Awo and Òrìṣà</h5>
+    <a href='https://open.substack.com/pub/oloriasabi/p/jagun-jagun-ancestry-awo-and-orisa?r=1rp4x0&utm_campaign=post&utm_medium=web'>
+    <p className='blog-btn'>Link</p>
+    </a>
+    </div>
+    <div className='blog-content'>
+     <h5 className=''>THE ELDERS OF THE NIGHT</h5>
+    <a href='https://open.substack.com/pub/oloriasabi/p/the-elders-of-the-night?r=1rp4x0&utm_campaign=post&utm_medium=web'>
+    <p className='blog-btn'>Link</p>
+    </a>
+    </div>
+    <div className='blog-content'>
+     <h5 className=''>“Understanding the Psychological Divide in Yoruba Society: Unveiling the Fragmentation Within”</h5>
+    <a href='https://open.substack.com/pub/oloriasabi/p/understanding-the-psychological-divide?r=1rp4x0&utm_campaign=post&utm_medium=web'>
+    <p className='blog-btn'>Link</p>
+    </a>
+    </div>
+
+    </div>
+    <div>
      <a href='https://medium.com/@developerqueenlatifa'
                  className=' ' target="_blank" rel="noreferrer">
                          medium.com/@developerqueenlatifa
     </a>
     <a href='https://dev.to/oloriasabi' className='font-medium text-xl p-5 underline underline-offset-8 hover:scale-x-105 cursor-pointer ' target="_blank" rel="noreferrer">
     dev.to/oloriasabi</a>   
-     </div> */}
+    <a href='https://oloriasabi.substack.com/' className='font-medium text-xl p-5 underline underline-offset-8 hover:scale-x-105 cursor-pointer ' target="_blank" rel="noreferrer">
+    oloriasabi.substack.com</a>   
+     </div>
 </div>
   )
 }
